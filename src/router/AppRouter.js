@@ -12,9 +12,12 @@ export const AppRouter = () => {
 
   NProgress.start();
   useEffect(() => {
-      setTimeout(() => {
+      const timer = setTimeout(() => {
           NProgress.done();
       }, 250);
+      return () => {
+        clearTimeout(timer)
+      }
   });
 
   return (
