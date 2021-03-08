@@ -17,7 +17,7 @@ export const BlogCard = ({post}) => {
                     <p>{moment(post.published).fromNow()}</p>
                 </div>
                 <div className="card-footer">
-                    <a href={post.url} target="_blank" className="btn btn-outline-secondary btn-block">Read</a>
+                    <a href={post.url} target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary btn-block">Read</a>
                 </div>
             </div>
         </div>
