@@ -29,6 +29,16 @@ export const Navbar = () => {
                     activeClassName="active"
                     className="nav-item nav-link" 
                     exact
+                    to="/studies"
+                >
+                    Studies
+                </NavLink>
+              </li>
+              <li className="nav-item active">
+                <NavLink 
+                    activeClassName="active"
+                    className="nav-item nav-link" 
+                    exact
                     to="/blog"
                 >
                     Blog

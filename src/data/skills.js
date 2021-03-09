@@ -12,6 +12,10 @@ export const skills = [
       percentage: 100,
     },
     {
+      skill: "Typescript",
+      percentage: 100,
+    },
+    {
       skill: "Angular",
       percentage: 95,
     },

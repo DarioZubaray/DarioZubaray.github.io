@@ -1,5 +1,5 @@
 import React from 'react';
-import { biography } from '../../data/biography';
+import { biography, linkedinUrl } from '../../data/biography';
 
 export const IntroduceCard = () => {
     return (
@@ -22,6 +22,12 @@ export const IntroduceCard = () => {
                             { biography.map( (b, i) => (
                                 <div className="text-justify" key={i}>{b}</div>
                             )) }
+                            <a 
+                                href={linkedinUrl}
+                                className="btn btn-primary my-2"
+                                target="_balnk"
+                                rel="noopener noreferrer">Add me on LinkedIn</a>
+
                         </div>
                     </div>
                 </div>

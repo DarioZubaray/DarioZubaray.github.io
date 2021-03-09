@@ -7,6 +7,7 @@ import { GithubScreen } from '../components/portfolio/GithubScreen';
 import { HomeScreen } from '../components/portfolio/HomeScreen';
 import { Navbar } from '../components/shared/Navbar';
 import { Footer } from '../components/shared/Footer';
+import { StudiesScreen } from '../components/portfolio/StudiesScreen';
 
 export const AppRouter = () => {
 
@@ -27,6 +28,9 @@ export const AppRouter = () => {
           <Navbar />
           <div className="container mt-2">
             <Switch>
+              <Route path="/studies">
+                <StudiesScreen />
+              </Route>
               <Route path="/blog">
                 <BlogScreen />
               </Route>
