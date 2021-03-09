@@ -9,7 +9,7 @@ export const BlogCard = ({post}) => {
                     {
                         post.images[0] ? 
                         ( <img src={post.images[0].url} alt={post.title} className="card-img-top rounded" /> )
-                        : (<img src="/blogger.png" alt="blogger post" className="card-img-top rounded" />)
+                        : (<img src="/static/img/blogger.png" alt="blogger post" className="card-img-top rounded" />)
                     }
                 </div>
                 <div className="card-body">

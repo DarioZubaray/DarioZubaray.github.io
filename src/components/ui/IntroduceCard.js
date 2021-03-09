@@ -9,7 +9,7 @@ export const IntroduceCard = () => {
                     <div className="row">
                         <div className="col-md-4">
                             <img
-                                src="/circle-cropped.png"
+                                src="/static/img/circle-cropped.png"
                                 alt="selfie of the author"
                                 className="img-fluid"
                                 width={500}
