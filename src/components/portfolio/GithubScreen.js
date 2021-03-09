@@ -39,7 +39,7 @@ export const GithubScreen = () => {
         <>
             {loading && <GithubSkeletonCard />}
             {!loading &&
-                <div className="row">
+                <div className="row animate__animated animate__fadeIn">
                     <div className="col-md-4">
                         {
                             user && <GithubProfileCard user={user} />

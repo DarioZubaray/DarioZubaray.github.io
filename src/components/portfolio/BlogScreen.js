@@ -4,7 +4,7 @@ import { posts } from '../../data/blogger';
 
 export const BlogScreen = () => {
     return (
-        <div className="row">
+        <div className="row animate__animated animate__fadeIn">
             {
                 posts.items.map((post, i) => (
                     <BlogCard post={post} key={i} />

@@ -4,7 +4,7 @@ import { CourseTimeline } from "../ui/CourseTimeline";
 
 export const StudiesScreen = () => {
   return (
-    <div className="card container">
+    <div className="card container animate__animated animate__fadeIn">
       <div className="page-header">
         <h1 id="timeline" className="text-center my-4">Courses Carried Out</h1>
       </div>
