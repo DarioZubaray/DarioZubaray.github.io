@@ -5,7 +5,7 @@ import { SkillsCard } from '../ui/SkillsCard';
 
 export const HomeScreen = () => {
     return (
-        <div class="animate__animated animate__fadeIn">
+        <div className="animate__animated animate__fadeIn">
             <IntroduceCard />
 
             <div className="row py-2">

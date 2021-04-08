@@ -1,5 +1,6 @@
 import React from 'react';
 import { biography, linkedinUrl } from '../../data/biography';
+import circleCropped from '../../static/circle-cropped.png'
 
 export const IntroduceCard = () => {
     return (
@@ -9,7 +10,7 @@ export const IntroduceCard = () => {
                     <div className="row">
                         <div className="col-md-4">
                             <img
-                                src="/static/img/circle-cropped.png"
+                                src={circleCropped}
                                 alt="selfie of the author"
                                 className="img-fluid"
                                 width={500}
