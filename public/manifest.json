@@ -1,14 +1,14 @@
 {
-    "short_name": "DJZ-Portfolio",
+    "short_name": "DJZ Portfolio",
     "name": "Dario Jose Zubaray Portfolio",
     "start_url": ".",
-    "background_color": "#3498db",
-    "theme-color": "#3498db",
+    "background_color": "#F0FFFF",
+    "theme-color": "#FFC90E",
     "display": "standalone",
     "orientation": "portrait",
     "icons": [
     {
-        "src": "favicon.ico",
+        "src": "/static/icons/64x64.png",
         "sizes": "64x64 32x32 24x24 16x16",
         "type": "image/x-icon"
       },

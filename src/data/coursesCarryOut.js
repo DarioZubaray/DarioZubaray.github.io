@@ -1,25 +1,25 @@
 const cetae = {
     name: 'CETAE',
     webSite: 'https://www.cetae.com.ar/',
-    image: '/static/img/cetae.jpg'
+    image: '../../static/img/cetae.jpg'
 };
 
 const educacionIt = {
     name: 'EducacionIt',
     webSite: 'https://www.educacionit.com/',
-    image: '/static/img/educacionit-bordered.jpg'
+    image: '../../static/img/educacionit-bordered.jpg'
 }
 
 const udemy = {
     name: 'Udemy',
     webSite: 'https://www.udemy.com/',
-    image: '/static/img/udemy.jpg'
+    image: '../../static/img/udemy.jpg'
 }
 
 const platzi = {
     name: 'Platzi',
     webSite: 'https://platzi.com/',
-    image: '/static/img/platzi.jpg'
+    image: '../../static/img/platzi.jpg'
 }
 
 export const courses = [

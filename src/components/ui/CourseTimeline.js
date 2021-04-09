@@ -24,7 +24,7 @@ export const CourseTimeline = ({ course }) => {
                         course.end && (<p className="text-muted"><i>{ course.end }</i></p>)
                     }
                     <p>
-                    duration: {course.duration} hs
+                        duration: {course.duration} hs
                     </p>
 
                     {
