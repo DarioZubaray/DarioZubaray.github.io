@@ -43,4 +43,8 @@ export const skills = [
       skill: "Flutter",
       percentage: 85,
     },
+    {
+      skill: "Copy Pasting",
+      percentage: 100,
+    },
 ];
