@@ -27,6 +27,7 @@ export const CourseFilter = ({ filterCourse }) => {
                 />
             ))
         }
+        <hr/>
     </>
   );
 };
