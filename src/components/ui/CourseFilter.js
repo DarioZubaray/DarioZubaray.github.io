@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+import { CourseFilterButton } from "./CourseFilterButton";
+
+const tagsFilters = [
+    'all', 'java', 'spring', 'angular', 'react', 'others', 'spanish', 'english', 'fernando herrera'
+]
 
 export const CourseFilter = ({ filterCourse }) => {
 
@@ -12,67 +17,16 @@ export const CourseFilter = ({ filterCourse }) => {
   return (
     <>
         <label>Filter:</label>
-            <button
-                className={`btn btn-info mx-1 ${active === "all" ? "active" : ""}`}
-                onClick={ () => activeAndFilter("all") }
-            >
-            All
-            </button>
-            <button
-                className={`btn btn-info mx-1 ${active === "java" ? "active" : ""}`}
-                onClick={ () => activeAndFilter("java") }
-            >
-            Java
-            </button>
-
-            <button
-                className={`btn btn-info mx-1 ${active === "spring" ? "active" : ""}`}
-                onClick={ () => activeAndFilter("spring") }
-            >
-            Spring
-            </button>
-
-            <button
-                className={`btn btn-info mx-1 ${active === "angular" ? "active" : ""}`}
-                onClick={ () => activeAndFilter("angular") }
-            >
-            Angular
-            </button>
-
-            <button
-                className={`btn btn-info mx-1 ${active === "react" ? "active" : ""}`}
-                onClick={ () => activeAndFilter("react") }
-            >
-            React
-            </button>
-
-            <button
-                className={`btn btn-info mx-1 ${active === "others" ? "active" : ""}`}
-                onClick={ () => activeAndFilter("others") }
-            >
-            Others
-            </button>
-
-            <button
-                className={`btn btn-secondary mx-1 ${active === "spanish" ? "active" : ""}`}
-                onClick={ () => activeAndFilter("spanish") }
-            >
-            Spanish
-            </button>
-
-            <button
-                className={`btn btn-secondary mx-1 ${active === "english" ? "active" : ""}`}
-                onClick={ () => activeAndFilter("english") }
-            >
-            English
-            </button>
-
-            <button
-                className={`btn btn-info mx-1 ${active === "fernando herrera" ? "active" : ""}`}
-                onClick={ () => activeAndFilter("fernando herrera") }
-            >
-            FH
-            </button>
+        {
+            tagsFilters.map(t => (
+                <CourseFilterButton
+                    active={active}
+                    activeAndFilter={activeAndFilter}
+                    filterName={t}
+                    key={t}
+                />
+            ))
+        }
     </>
   );
 };
