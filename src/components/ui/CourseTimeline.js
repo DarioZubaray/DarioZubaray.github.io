@@ -4,6 +4,7 @@ import cetae from '../../static/cetae.jpg';
 import educacionIt from '../../static/educacionit-bordered.jpg';
 import platzi from '../../static/platzi.jpg';
 import udemy from '../../static/udemy.jpg';
+import moment from 'moment';
 
 export const CourseTimeline = ({ course }) => {
 
@@ -21,6 +22,11 @@ export const CourseTimeline = ({ course }) => {
                 return;
         }
     }
+
+    const endDate = (course.end !== 'at present') 
+        ? moment(course.end).fromNow()
+        : course.end;
+
     return (
         <>
             <div className="timeline-badge">
@@ -40,7 +46,11 @@ export const CourseTimeline = ({ course }) => {
                 </div>
                 <div className="timeline-body">
                     {
-                        course.end && (<p className="text-muted"><i>{ course.end }</i></p>)
+                        course.end && (
+                        <p className="text-muted">
+                            <i>{course.end} (<small>{ endDate }</small>)</i>
+                        </p>
+                        )
                     }
                     <p>
                         duration: {course.duration} hs
