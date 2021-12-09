@@ -1,7 +1,27 @@
 export const experiences = [
     {
+      company: "AccelOne",
+      title: "Salesforces Developer",
+      description: [
+          "Salesforce backend developing using Apex language to trigger on difeferent events to automate the creation of third-party services such as meeting rooms and surveys"
+      ],
+      from_month: 'september',
+      from_year: 2021,
+    },
+    {
       company: "Globant",
-      title: "Java Developer Engineer",
+      title: "NodeJs Developer Engineer Semisenior Advance",
+      description: [
+          "Developing cloud functions in AWS-steps using Node Js as programming language to retrieve a collection of data from different third parties APIs storing that data into Atlas mongo clusters"
+      ],
+      from_month: 'april',
+      from_year: 2021,
+      to_month: 'september',
+      to_year: 2021,
+    },
+    {
+      company: "Globant",
+      title: "Java Developer Engineer Semisenior Advance",
       description: [
           "Analysis, development, testing and documentation of java applications based on microservices built with spring boot project and maven.",
           "Running on docker containers, managed by kubernetes clusters on AWS platform.",
@@ -9,10 +29,12 @@ export const experiences = [
       ],
       from_month: 'september',
       from_year: 2020,
+      to_month: 'april',
+      to_year: 2021,
     },
     {
       company: "Imagosur SA",
-      title: "System software developer",
+      title: "System software developer Semisenior",
       description: [
           "Analysis, development, maintenance and support of applications both web, desktop UI, desktop service or mobile based on technologies like:",
           " ",
