@@ -1,6 +1,6 @@
 import React from 'react';
 import { experiences } from '../../data/experiences';
-import noInternetConnection from '../../static/no-internet.png';
+
 import tultix from '../../static/tultix.jpg';
 import imagosur from '../../static/imagosur.jpg';
 import globant from '../../static/globant.jpg';
