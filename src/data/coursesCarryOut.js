@@ -13,6 +13,11 @@ const udemy = {
     webSite: 'https://www.udemy.com/'
 }
 
+const udemy2021 = {
+    name: 'Udemy2021',
+    webSite: 'https://www.udemy.com/'
+}
+
 const platzi = {
     name: 'Platzi',
     webSite: 'https://platzi.com/'
@@ -531,7 +536,7 @@ export const courses = [
     },
     {
         name: 'React: Aplicaciones en tiempo real con Socket-io',
-        organization: udemy,
+        organization: udemy2021,
         start: 'mar 2021',
         end: 'apr 2021',
         duration: 16,
@@ -539,21 +544,31 @@ export const courses = [
         tags: [ tags.programming.frontend.web.framework.react, tags.language.spanish, tags.instructor.fernandoHerrera, tags.all ]
     },
     {
+        name: 'React Native: Aplicaciones nativas para IOS y Android',
+        organization: udemy2021,
+        start: 'may 2021',
+        end: 'jan 2022',
+        duration: 43.5,
+        certification: 'https://www.udemy.com/certificate/UC-17a06692-249f-425a-b7a1-db9f054a9ba7',
+        tags: [ tags.programming.frontend.web.framework.react, tags.programming.frontend.mobile.javascript.reactNative , tags.language.spanish, tags.instructor.fernandoHerrera, tags.all ]
+    },
+    {
+        name: 'React Pro: Lleva tus bases al siguiente nivel',
+        organization: udemy2021,
+        start: 'jan 2022',
+        end: 'at present',
+        duration: 27,
+        certification: '',
+        tags: [ tags.programming.frontend.web.framework.react, tags.programming.frontend.web.javascript , tags.language.spanish, tags.instructor.fernandoHerrera, tags.all ]
+    },
+    {
         name: 'Ultimate AWS Certified Developer Associate 2021 - NEW!',
-        organization: udemy,
+        organization: udemy2021,
         start: 'jan 2021',
         end: 'at present',
         duration: 29.5,
         certification: '',
         tags: [ tags.programming.devops, tags.language.english, tags.all ]
     },
-    {
-        name: 'React Native: Aplicaciones nativas para IOS y Android',
-        organization: udemy,
-        start: 'may 2021',
-        end: 'at present',
-        duration: 43,
-        certification: '',
-        tags: [ tags.programming.frontend.web.framework.react, tags.programming.frontend.mobile.javascript.reactNative , tags.language.spanish, tags.instructor.fernandoHerrera, tags.all ]
-    },
+    
 ];

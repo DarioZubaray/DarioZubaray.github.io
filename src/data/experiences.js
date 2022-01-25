@@ -7,6 +7,8 @@ export const experiences = [
       ],
       from_month: 'september',
       from_year: 2021,
+      to_month: 'december',
+      to_year: 2021,
     },
     {
       company: "Globant",
