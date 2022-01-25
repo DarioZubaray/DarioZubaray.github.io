@@ -3,7 +3,7 @@ import { publicProfile } from '../../data/links';
 
 export const LinksScreen = () => {
     return (
-        <div className="row animate__animated animate__fadeIn">
+        <div className="container row mb-3 animate__animated animate__fadeIn">
             <div className="card" style={{ flex: 1 }}>
                 <div className='card-body'>
                     <h1 className='mb-3'>Links to my public profiles</h1>
