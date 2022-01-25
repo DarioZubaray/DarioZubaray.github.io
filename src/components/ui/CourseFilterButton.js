@@ -8,9 +8,9 @@ export const CourseFilterButton = ({ filterName, active, activeAndFilter }) => {
 
     return (
         <button
-                className={styleClass}
-                onClick={ () => activeAndFilter(filterName) }
-            >
+            className={styleClass}
+            onClick={ () => activeAndFilter(filterName) }
+        >
             {filterName}
         </button>
     )

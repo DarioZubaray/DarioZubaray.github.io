@@ -12,7 +12,6 @@ export const StudiesScreen = () => {
   const [coursesCarriedOut, setCoursesCarriedOut] = useState(initialState);
 
   const filterCourse = (parameter) => {
-    console.log(`filter course by ${parameter}`)
     setCoursesCarriedOut((prev) => {
       return {
         ...prev.courses,
@@ -22,11 +21,31 @@ export const StudiesScreen = () => {
     })
   }
 
+  const sortedCourses = (parameter) => {
+    setCoursesCarriedOut((prev) => {
+      return {
+        ...prev.courses,
+        shown: prev.shown.sort((a, b) => {
+          if (parameter === 'Older first') {
+            if (a.id > b.id) { return 1;}
+            if (a.id < b.id) { return -1;}
+          } else {
+            if (a.id < b.id) { return 1; }
+            if (a.id > b.id) { return -1; }
+          }
+
+          // a must be equal to b
+          return 0;
+        })
+      }
+    })
+  }
+
   return (
     <div className="card container animate__animated animate__fadeIn">
       <div className="page-header">
         <h1 id="timeline" className="text-center my-4">Courses Carried Out ({ coursesCarriedOut.shown.length })</h1>
-        <CourseFilter filterCourse={ filterCourse } />
+        <CourseFilter filterCourse={ filterCourse } sortedCourses={ sortedCourses } />
       </div>
       <ul className="timeline">
           {
