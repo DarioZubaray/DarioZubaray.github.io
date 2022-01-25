@@ -1,4 +1,5 @@
 import React from 'react';
+import moment from 'moment';
 import { biography, linkedinUrl } from '../../data/biography';
 import circleCropped from '../../static/circle-cropped.png'
 
@@ -21,7 +22,13 @@ export const IntroduceCard = () => {
                             <h1 className="py-2">Dario Zubaray</h1>
                             <h3 className="pb-4">Software Developer</h3>
                             { biography.map( (b, i) => (
-                                <div className="text-justify" key={i}>{b}</div>
+                                <div className="text-justify" key={i}>
+                                    {
+                                        (b.includes('AGE')) 
+                                        ? b.replace('AGE', moment().diff('1989-01-16', 'years'))
+                                        : b
+                                    }
+                                </div>
                             )) }
                             <a 
                                 href={linkedinUrl}

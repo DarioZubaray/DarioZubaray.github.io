@@ -4,6 +4,7 @@ import cetae from '../../static/cetae.jpg';
 import educacionIt from '../../static/educacionit-bordered.jpg';
 import platzi from '../../static/platzi.jpg';
 import udemy from '../../static/udemy.jpg';
+import udemy2021 from '../../static/udemy-2021-plus.jpg'
 import moment from 'moment';
 
 export const CourseTimeline = ({ course }) => {
@@ -16,6 +17,8 @@ export const CourseTimeline = ({ course }) => {
                 return educacionIt;
             case 'Udemy':
                 return udemy;
+            case 'Udemy2021':
+                return udemy2021;
             case 'Platzi':
                 return platzi;
             default:
@@ -40,7 +43,7 @@ export const CourseTimeline = ({ course }) => {
                     <h4 className="timeline-title">{ course.name }</h4>
                     <p>
                     <small className="text-muted">
-                        { course.organization.name }
+                        { course.organization.name.replace(/[0-9]/g, '') }
                     </small>
                     </p>
                 </div>

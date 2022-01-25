@@ -1,5 +1,5 @@
 export const biography = [
-  "I'm 32 years old ♑",
+  "I'm AGE years old ♑",
   "father 👨‍👧",
   "from argentina 🔵⚪🔵",
   "a big fan of formula-1 🏎",
