@@ -8,6 +8,7 @@ import { HomeScreen } from '../components/portfolio/HomeScreen';
 import { Navbar } from '../components/shared/Navbar';
 import { Footer } from '../components/shared/Footer';
 import { StudiesScreen } from '../components/portfolio/StudiesScreen';
+import { LinksScreen } from '../components/portfolio/LinksScreen'
 
 export const AppRouter = () => {
 
@@ -33,6 +34,9 @@ export const AppRouter = () => {
               </Route>
               <Route path="/blog">
                 <BlogScreen />
+              </Route>
+              <Route path="/links">
+                <LinksScreen />
               </Route>
               <Route path="/github">
                 <GithubScreen />

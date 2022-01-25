@@ -68,6 +68,16 @@ export const Navbar = () => {
                 activeClassName="active"
                 className="nav-item nav-link"
                 exact
+                to="/links"
+              >
+                Links
+              </NavLink>
+            </li>
+            <li className="nav-item active" onClick={handleNavCollapse}>
+              <NavLink
+                activeClassName="active"
+                className="nav-item nav-link"
+                exact
                 to="/github"
               >
                 Github
