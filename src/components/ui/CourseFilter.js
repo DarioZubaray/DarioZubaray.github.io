@@ -3,7 +3,7 @@ import { CourseFilterButton } from "./CourseFilterButton";
 import { CourseSortingButton } from "./CourseSortingButton";
 
 const tagsFilters = [
-    'all', 'java', 'spring', 'angular', 'react', 'others', 'spanish', 'english', 'fernando herrera'
+    'all', 'java', 'spring', 'angular', 'react', 'vuejs', 'others', 'spanish', 'english', 'fernando herrera'
 ]
 const activeSortingButtonInitialValue = 'Older first';
 

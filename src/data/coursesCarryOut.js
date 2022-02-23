@@ -345,7 +345,7 @@ export const courses = [
         end: 'jun 2019',
         duration: 9.5,
         certification: 'https://www.udemy.com/certificate/UC-1PVNJ4WC/',
-        tags: [ tags.programming.frontend.web.javascript, tags.language.spanish, tags.all ]
+        tags: [ tags.programming.frontend.web.framework.vue, tags.programming.frontend.web.javascript, tags.language.spanish, tags.all ]
     },
     {
         id: 30,
@@ -627,11 +627,11 @@ export const courses = [
     },
     {
         id: 58,
-        name: 'React Pro: Lleva tus bases al siguiente nivel',
+        name: 'Vue.js: De cero a experto',
         organization: udemy2021,
         start: 'jan 2022',
         end: 'feb 2022',
-        duration: 27,
+        duration: 43.5,
         certification: 'https://www.udemy.com/certificate/UC-3d1fce93-7a59-4394-8836-6e47725a6351',
         tags: [ tags.programming.frontend.web.framework.vue, tags.programming.frontend.web.javascript , tags.language.spanish, tags.instructor.fernandoHerrera, tags.all ]
     },
