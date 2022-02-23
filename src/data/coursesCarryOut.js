@@ -44,7 +44,8 @@ const tags = {
                 javascript: 'javascript',
                 framework: {
                     angular: 'angular',
-                    react: 'react'
+                    react: 'react',
+                    vue: 'vuejs'
                 }
             },
             mobile: {
@@ -619,18 +620,28 @@ export const courses = [
         name: 'React Pro: Lleva tus bases al siguiente nivel',
         organization: udemy2021,
         start: 'jan 2022',
-        end: 'at present',
+        end: 'jan 2022',
         duration: 27,
-        certification: '',
+        certification: 'https://www.udemy.com/certificate/UC-f33e3d2d-3919-4491-991e-1904f0f51246',
         tags: [ tags.programming.frontend.web.framework.react, tags.programming.frontend.web.javascript , tags.language.spanish, tags.instructor.fernandoHerrera, tags.all ]
     },
     {
         id: 58,
-        name: 'Ultimate AWS Certified Developer Associate 2021 - NEW!',
+        name: 'React Pro: Lleva tus bases al siguiente nivel',
         organization: udemy2021,
         start: 'jan 2022',
-        end: 'at present',
-        duration: 29.5,
+        end: 'feb 2022',
+        duration: 27,
+        certification: 'https://www.udemy.com/certificate/UC-3d1fce93-7a59-4394-8836-6e47725a6351',
+        tags: [ tags.programming.frontend.web.framework.vue, tags.programming.frontend.web.javascript , tags.language.spanish, tags.instructor.fernandoHerrera, tags.all ]
+    },
+    {
+        id: 59,
+        name: 'Ultimate AWS Certified Developer Associate 2022 - NEW!',
+        organization: udemy2021,
+        start: 'feb 2022',
+        end: 'ay present',
+        duration: 32.5,
         certification: '',
         tags: [ tags.programming.devops, tags.language.english, tags.all ]
     },
