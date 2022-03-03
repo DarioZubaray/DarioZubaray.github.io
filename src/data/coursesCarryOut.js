@@ -640,7 +640,7 @@ export const courses = [
         name: 'Ultimate AWS Certified Developer Associate 2022 - NEW!',
         organization: udemy2021,
         start: 'feb 2022',
-        end: 'ay present',
+        end: 'at present',
         duration: 32.5,
         certification: '',
         tags: [ tags.programming.devops, tags.language.english, tags.all ]

@@ -9,6 +9,7 @@ import { Navbar } from '../components/shared/Navbar';
 import { Footer } from '../components/shared/Footer';
 import { StudiesScreen } from '../components/portfolio/StudiesScreen';
 import { LinksScreen } from '../components/portfolio/LinksScreen'
+import { DemoScreen } from '../components/portfolio/DemoScreen';
 
 export const AppRouter = () => {
 
@@ -37,6 +38,9 @@ export const AppRouter = () => {
               </Route>
               <Route path="/links">
                 <LinksScreen />
+              </Route>
+              <Route path="/demo">
+                <DemoScreen />
               </Route>
               <Route path="/github">
                 <GithubScreen />
