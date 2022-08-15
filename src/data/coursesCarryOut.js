@@ -91,15 +91,6 @@ export const courses = [
     },
     {
         id: 3,
-        name: 'Armado y Reparación de PC',
-        organization: cetae,
-        start: 'jul 2015',
-        end: 'dec 2015',
-        duration: 80,
-        tags: [ tags.programming.others, tags.language.spanish, tags.all ]
-    },
-    {
-        id: 4,
         name: 'Java Standard Programming, J2SE 8.0',
         organization: educacionIt,
         start: 'jun 2015',
@@ -108,7 +99,7 @@ export const courses = [
         tags: [ tags.programming.backend.java.name, tags.language.spanish, tags.all ]
     },
     {
-        id: 5,
+        id: 4,
         name: 'Java Web: Servlets, JSP, JSTL, Struts & AJAX',
         organization: educacionIt,
         start: 'sep 2015',
@@ -117,7 +108,7 @@ export const courses = [
         tags: [ tags.programming.backend.java.name, tags.language.spanish, tags.all ]
     },
     {
-        id: 6,
+        id: 5,
         name: 'Java Advanced Programming: Threads, Networking, J2SE',
         organization: educacionIt,
         start: 'oct 2015',
@@ -126,13 +117,22 @@ export const courses = [
         tags: [ tags.programming.backend.java.name, tags.language.spanish, tags.all ]
     },
     {
-        id: 7,
+        id: 6,
         name: 'Java Web Services',
         organization: educacionIt,
         start: 'nov 2015',
         end: 'dec 2015',
         duration: 12,
         tags: [ tags.programming.backend.java.name, tags.language.spanish, tags.all ]
+    },
+    {
+        id: 7,
+        name: 'Armado y Reparación de PC',
+        organization: cetae,
+        start: 'jul 2015',
+        end: 'dec 2015',
+        duration: 80,
+        tags: [ tags.programming.others, tags.language.spanish, tags.all ]
     },
     {
         id: 8,
@@ -423,7 +423,7 @@ export const courses = [
         organization: udemy,
         start: 'nov 2019',
         end: 'nov 2019',
-        duration: 1.5,
+        duration: 13.5,
         certification: 'https://www.udemy.com/certificate/UC-MM6ZVX37',
         tags: [ tags.programming.frontend.web.framework.angular, tags.language.spanish, tags.instructor.fernandoHerrera, tags.all ]
     },

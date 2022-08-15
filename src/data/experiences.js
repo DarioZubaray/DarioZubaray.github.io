@@ -1,5 +1,19 @@
 export const experiences = [
     {
+      company: "Number 8",
+      title: "Senior Software Engineer",
+      description: [
+          "Full stack development with Java and React. Microservices with Java 1.8 built with spring boot and gradle. Lombok. Unit tests based on groovy’s spock framework. Running on docker containers. React 16.9 with hooks."
+      ],
+      from_month: 'March',
+      from_year: 2022,
+      to_month: 'August',
+      to_year: 2022,
+      language: 'English',
+      contract: 'Contractor',
+      location: 'Remote'
+    },
+    {
       company: "AccelOne",
       title: "Salesforces Developer",
       description: [
@@ -9,10 +23,13 @@ export const experiences = [
       from_year: 2021,
       to_month: 'december',
       to_year: 2021,
+      language: 'English',
+      contract: 'Contractor',
+      location: 'Remote'
     },
     {
       company: "Globant",
-      title: "NodeJs Developer Engineer Semisenior Advance",
+      title: "NodeJs Engineer Semisenior Advance",
       description: [
           "Developing cloud functions in AWS-steps using Node Js as programming language to retrieve a collection of data from different third parties APIs storing that data into Atlas mongo clusters"
       ],
@@ -20,10 +37,13 @@ export const experiences = [
       from_year: 2021,
       to_month: 'september',
       to_year: 2021,
+      language: 'English',
+      contract: 'Dependency relationship',
+      location: 'Remote'
     },
     {
       company: "Globant",
-      title: "Java Developer Engineer Semisenior Advance",
+      title: "Java Engineer Semisenior Advance",
       description: [
           "Analysis, development, testing and documentation of java applications based on microservices built with spring boot project and maven.",
           "Running on docker containers, managed by kubernetes clusters on AWS platform.",
@@ -33,6 +53,9 @@ export const experiences = [
       from_year: 2020,
       to_month: 'april',
       to_year: 2021,
+      language: 'Spanish',
+      contract: 'Dependency relationship',
+      location: 'Remote'
     },
     {
       company: "Imagosur SA",
@@ -62,6 +85,9 @@ export const experiences = [
       from_year: 2016,
       to_month: 'september',
       to_year: 2020,
+      language: 'Spanish',
+      contract: 'Dependency relationship',
+      location: 'On Site'
     },
     {
       company: "Tultix SRL",
@@ -83,5 +109,8 @@ export const experiences = [
       from_year: 2016,
       to_month: 'june',
       to_year: 2016,
+      language: 'Spanish',
+      contract: 'Dependency relationship',
+      location: 'On Site'
     },
 ];
