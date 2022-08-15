@@ -9,7 +9,7 @@ export const SkillsCard = () => {
                 <h1>Skills</h1>
                 {
                     skills.map(({skill, percentage}, i) => (
-                        <div className="py-2" key={i}>
+                        <div className="py-2" key={ 'percentage-' + i }>
                             <h5>{skill}</h5>
                             <div
                                 className="my-progress-bar">

@@ -50,7 +50,7 @@ export const StudiesScreen = () => {
       <ul className="timeline">
           {
               coursesCarriedOut.shown.map((c, i) => (
-                  <li key={i} className={c.organization.name === 'EducacionIt' || c.organization.name === 'Platzi' ? 'timeline-inverted' : ''}>
+                  <li key={ 'courses-carried-out-' + i } className={c.organization.name === 'EducacionIt' || c.organization.name === 'Platzi' ? 'timeline-inverted' : ''}>
                       <CourseTimeline course={c} />
                   </li>
               ))

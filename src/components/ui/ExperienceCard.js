@@ -33,7 +33,7 @@ export const ExperienceCard = () => {
             <ul className="list-group">
                 {
                     experiences.map((exp, i) => (
-                        <li className="list-group-item my-2" key={i}>
+                        <li className="list-group-item my-2" key={ 'experiencie-' + i }>
                             <div className="row" style={{alignItems: 'center'}}>
 
                                 <div className="col-md-2">
@@ -67,7 +67,7 @@ export const ExperienceCard = () => {
                                 <br/>
                                 { 
                                     exp.description.map((desc, index) => (
-                                        <p key={index}>{desc}</p>
+                                        <p style={{ textIndent: 10 }} key={ 'description-' + index }>{desc}</p>
                                     ))
                                 }
                             </div>

@@ -17,7 +17,7 @@ const GithubSkeletonCard = () => {
           <div className="card card-body">
             {
               Array(6).fill().map((item, index) => (
-                <div className="card rounded my-2" key={index}>
+                <div className="card rounded my-2" key={ 'skeleton-' + index }>
                   <div className="card-body">
                     <Skeleton height={30} width={20} /><span> </span>
                     <br/>

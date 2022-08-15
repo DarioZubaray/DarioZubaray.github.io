@@ -7,7 +7,7 @@ export const BlogScreen = () => {
         <div className="row animate__animated animate__fadeIn">
             {
                 posts.items.map((post, i) => (
-                    <BlogCard post={post} key={i} />
+                    <BlogCard post={post} key={ 'blog-card-' + i } />
                 ))
             }
         </div>
