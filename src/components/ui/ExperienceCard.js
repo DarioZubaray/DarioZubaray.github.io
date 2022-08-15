@@ -5,6 +5,8 @@ import tultix from '../../static/tultix.jpg';
 import imagosur from '../../static/imagosur.jpg';
 import globant from '../../static/globant.jpg';
 import accelone from '../../static/accelone.jpg';
+import number8 from '../../static/number8.png';
+import { ExperienceDescriptionHeader, ExperienceDescriptionBody } from './ExperienceDescription';
 
 const getImageResource = (imageName) => {
     switch(imageName) {
@@ -16,6 +18,8 @@ const getImageResource = (imageName) => {
             return globant;
         case 'AccelOne':
             return accelone;
+        case 'Number 8':
+            return number8;
         default:
             return;
     }
@@ -42,19 +46,25 @@ export const ExperienceCard = () => {
                                     </div>
                                 </div>
 
-                                <div className="col">
-                                    <h3><small>{ exp.company }</small></h3>
-                                    <h4> { exp.title }</h4>
-                                    <h5>
-                                        <small>{ exp.from_month}</small> { exp.from_year } - 
-                                        <small> { exp.to_month === undefined ? '' : exp.to_month }</small> { exp.to_year === undefined ? 'Actually' : exp.to_year }
-                                    </h5>
-                                </div>
+                                <ExperienceDescriptionHeader exp={ exp } />
+
                             </div>
 
+
+                            <hr />
+                            <div>
+                                <ExperienceDescriptionBody exp={ exp } />
+                            </div>
                             <hr />
 
                             <div>
+                                <h6>
+                                    <small>
+                                        <span role="img" aria-label="description">📜</span>
+                                    </small>
+                                   <span> Description:</span>
+                                </h6>
+                                <br/>
                                 { 
                                     exp.description.map((desc, index) => (
                                         <p key={index}>{desc}</p>
