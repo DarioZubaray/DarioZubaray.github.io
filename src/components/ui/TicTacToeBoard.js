@@ -75,7 +75,7 @@ export const TicTacToeBoard = () => {
     } else {
       setStatus('Next player: ' + (xIsNext ? 'X' : 'O'));
     }
-  }, [squares, xIsNext, gameOver])
+  }, [squares, xIsNext, gameOver, calculateWinner])
 
   const reset = () => {
     setSquares(Array(9).fill(null))
