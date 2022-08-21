@@ -3,7 +3,8 @@ export const experiences = [
       company: "Number 8",
       title: "Senior Software Engineer",
       description: [
-          "Full stack development with Java and React. Microservices with Java 1.8 built with spring boot and gradle. Lombok. Unit tests based on groovy’s spock framework. Running on docker containers. React 16.9 with hooks."
+          "Full stack development with Java and React. Microservices with Java 1.8 built with spring boot and gradle. Lombok. Unit tests based on groovy’s spock framework. Running on docker containers. ",
+          "React 16.9 with hooks in typescript, react-router, REDUX, Forms based on Formik."
       ],
       from_month: 'March',
       from_year: 2022,
@@ -45,9 +46,8 @@ export const experiences = [
       company: "Globant",
       title: "Java Engineer Semisenior Advance",
       description: [
-          "Analysis, development, testing and documentation of java applications based on microservices built with spring boot project and maven.",
-          "Running on docker containers, managed by kubernetes clusters on AWS platform.",
-          "We use scrum as an agile framework."
+          "Analysis, design, development, testing and documentation generation of java applications based on microservices built with spring boot projects and maven, spring modules like cloud-eureka-hystrix. No-sql database like dynamodb, integration with cognito, cloudwatch monitoring and codecommit as csm.",
+          "Running on docker containers, managed by kubernetes clusters on AWS platform. Agile framework based on scrum and 2 week sprint."
       ],
       from_month: 'september',
       from_year: 2020,
@@ -61,56 +61,34 @@ export const experiences = [
       company: "Imagosur SA",
       title: "System software developer Semisenior",
       description: [
-          "Analysis, development, maintenance and support of applications both web, desktop UI, desktop service or mobile based on technologies like:",
-          " ",
-          "-Java 7-8: maven, spring core-security-mvc-data-batch-boot, struts 2, hibernate criteria-queryDsl, Swing, JavaFX, JBoss, WildFly, WebSphere, Tomcat.",
-          " ",
-          "-Javascript ES3-5-6: JQuery, JQuery Mobile, JQGrid, momentjs, Handlebars, pug, Tiles, thymeleaf, Bootstrap, Typescript, Vuejs, ElectronJS",
-          " ",
+          "Analysis, design, development, deploy, maintenance and support of different type of applications: web, desktop UI, desktop services, CLI, Rest API or mobile apps based on technologies like:",
+          "-Java 6-7-8: maven, spring (core-security-mvc-data-batch-boot), struts 2, hibernate criteria-queryDsl, Tiles, thymeleaf, Velocity, Swing, JavaFX, JBoss, WildFly, WebSphere, Tomcat.",
+          "-Javascript ES3-5-6: JQuery, JQuery Mobile, JQGrid, momentjs, Handlebars, Bootstrap, Typescript, Angular 5, Vuejs 2, ElectronJS",
           "-Dotnet 4.7/core/compact 3.5: asp.net, Entity Framework, LINQ, Structure map, WPF, MahApps",
-          " ",
-          "-DataBases: SqlServer, MySQL, Teradata, Informix.",
-          " ",
-          "-Software Configuration Management: SVN & GIT.",
-          " ",
-          "-Continuous Integration: Jenkins, sonarqube, nexus.",
-          " ",
-          "-Deployment local servers and docker, monitoring in Test, Pilot and Production environments.",
-          " ",
-          "-Documentation generation with Swagger.",
-          " ",
-          "-Help desk for own services with the end user."
+
+          "DataBases used SqlServer, MySQL, Teradata, Informix, source code management with SVN & GIT, documentation generation with Swagger, continuous Integration using Jenkins jobs, sonarqube, nexus binary repositoy. Deployment on app-servers or docker's containers, monitoring in Test using JMeter, analysis of logs."
       ],
       from_month: 'june',
       from_year: 2016,
       to_month: 'september',
       to_year: 2020,
       language: 'Spanish',
-      contract: 'Dependency relationship',
+      contract: 'Fulltime contract',
       location: 'On Site'
     },
     {
       company: "Tultix SRL",
       title: "Java developer junior",
       description: [
-          "Research, development and implementation of Java J2SE applications",
-          "Scraping with HtmlUnit.",
-          "CRUD operations with hibernate on databases: MySql and SqlServer.",
-          "Repetition of Tasks with Quartz Cron.",
-          "Use of libraries such as JavaMail, Apache Poi, Apache Fop. Java Web: JSF, PrimeFaces, PrimeFaces Mobile.",
-          "Web Services consumption.",
-          "Google Recaptcha use.",
-          "Code optimization and obfuscation with Proguard.",
-          "Code decompilation with Java Decompiler.",
-          "Administration: GTalk, WebMail, Jira Software, Track ActiTime, Eclipse Luna environment.",
-          "Project versioning with SVN."
+          "Research, development and implementation of Java J2SE applications, design of CRUD operations with hibernate on databases such as MySql and SqlServer.",
+          "Use of libraries such as JavaMail, Apache Poi, Apache Fop. Java Web: JSF, PrimeFaces, PrimeFaces Mobile. Scraping with HtmlUnit, repetition of Tasks with Quartz Cron, code optimization and obfuscation with Proguard, code decompilation with Java Decompiler. Project versioning with SVN."
       ],
       from_month: 'march',
       from_year: 2016,
       to_month: 'june',
       to_year: 2016,
       language: 'Spanish',
-      contract: 'Dependency relationship',
+      contract: 'Fulltime contract',
       location: 'On Site'
     },
 ];
