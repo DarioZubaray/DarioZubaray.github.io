@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useCallback, useEffect, useState } from 'react'
 import { TicTacToeButton } from './TicTacToeButton'
 import './TicTacToeBoard.css'
 
@@ -49,41 +49,44 @@ export const TicTacToeBoard = () => {
     setXIsNext(!xIsNext)
   }
 
-  const calculateWinner = () => {
-    console.log('calculate winner')
+  const calculateWinner = useCallback(() => {
+    return () => {
+      console.log('calculate winner')
 
-    for (let i = 0; i < lines.length; i++) {
-      const [a, b, c] = lines[i];
-      if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
+      for (let i = 0; i < lines.length; i++) {
+        const [a, b, c] = lines[i];
+        if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
 
-        if (gameOver !== true) {
-          setGameOver(true);
-          setWinnerCombination([a, b, c]);
+          if (gameOver !== true) {
+            setGameOver(true);
+            setWinnerCombination([a, b, c]);
+          }
+
+          return squares[a];
         }
+      }
 
-        return squares[a];
+      setGameOver(!squares.includes(null))
+      return null;
+    }
+  }, [gameOver, squares])
+
+  const calculateGameStatus = useCallback(() => {
+    return (winner) => {
+      let currentStatus = '';
+      if (winner) {
+        currentStatus = 'Winner: ' + winner;
+      } else if ( gameOver ) {
+        currentStatus = 'Tied: No more moves!';
+      } else {
+        currentStatus = 'Next player: ' + (xIsNext ? 'X' : 'O');
+      }
+
+      if (status !== currentStatus) {
+        setStatus(currentStatus);
       }
     }
-
-    setGameOver(!squares.includes(null))
-    return null;
-  }
-
-  const calculateGameStatus = (winner) => {
-
-    let currentStatus = '';
-    if (winner) {
-      currentStatus = 'Winner: ' + winner;
-    } else if ( gameOver ) {
-      currentStatus = 'Tied: No more moves!';
-    } else {
-      currentStatus = 'Next player: ' + (xIsNext ? 'X' : 'O');
-    }
-
-    if (status !== currentStatus) {
-      setStatus(currentStatus);
-    }
-  }
+  }, [gameOver, status, xIsNext])
 
   useEffect(() => {
     const winner = calculateWinner();
