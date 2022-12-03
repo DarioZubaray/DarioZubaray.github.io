@@ -700,6 +700,16 @@
         },
         {
             "id": 65,
+            "name": "React Query Un poderoso gestor de estado asíncrono",
+            "organization": "devtalles",
+            "start": "nov 2022",
+            "end": "dec 2022",
+            "duration": 5,
+            "certification": "https://cursos.devtalles.com/certificates/ku6roxczap",
+            "tags": [ "tags.programming.frontend.web.framework.react" , "tags.language.spanish", "tags.instructor.fernandoHerrera", "tags.all" ]
+        },
+        {
+            "id": 66,
             "name": "Flutter Avanzado: Lleva tu conocimiento al siguiente nivel",
             "organization": "udemy2021",
             "start": "oct 2022",
@@ -709,7 +719,7 @@
             "tags": [ "tags.programming.frontend.mobile.dart.framework.flutter" , "tags.language.spanish", "tags.instructor.fernandoHerrera", "tags.all" ]
         },
         {
-            "id": 66,
+            "id": 67,
             "name": "Ultimate AWS Certified Developer Associate 2022 - NEW!",
             "organization": "udemy2021",
             "start": "feb 2022",
