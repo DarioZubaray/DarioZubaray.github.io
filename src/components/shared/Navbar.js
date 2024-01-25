@@ -93,6 +93,15 @@ export const Navbar = () => {
                 Github
               </NavLink>
             </li>
+            <li className="nav-item active" onClick={handleNavCollapse}>
+              <a
+                className="nav-item nav-link"
+                target="_blank"
+                href="https://docs.google.com/document/d/15sfZrsMZ2ZWgRG9LBEU-K4Oqznnll2jM/edit?usp=sharing&ouid=104234044979117055430&rtpof=true&sd=true"
+              >
+                CV
+              </a>
+            </li>
           </ul>
         </div>
       </div>
