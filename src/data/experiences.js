@@ -1,5 +1,20 @@
 export const experiences = [
     {
+      company: "Accenture",
+      title: "Java developer",
+      description: [
+          "Backend Development on AWS: Designed, implemented and maintained backend services using Java on AWS.",
+          "This covered the creation of endpoints in API Gateway to handle HTTP requests, integration with DynamoDB, S3, Lambdas, pipelines and steps Functions."
+      ],
+      from_month: 'April',
+      from_year: 2023,
+      to_month: 'January',
+      to_year: 2024,
+      language: 'Spanish, English',
+      contract: 'Full-Time Employee',
+      location: 'Remote'
+    },
+    {
       company: "Number 8",
       title: "Senior Software Engineer",
       description: [
@@ -38,8 +53,8 @@ export const experiences = [
       from_year: 2021,
       to_month: 'september',
       to_year: 2021,
-      language: 'English',
-      contract: 'Dependency relationship',
+      language: 'Spanish, English',
+      contract: 'Full-Time Employee',
       location: 'Remote'
     },
     {
@@ -54,7 +69,7 @@ export const experiences = [
       to_month: 'april',
       to_year: 2021,
       language: 'Spanish',
-      contract: 'Dependency relationship',
+      contract: 'Full-Time Employee',
       location: 'Remote'
     },
     {
@@ -73,7 +88,7 @@ export const experiences = [
       to_month: 'september',
       to_year: 2020,
       language: 'Spanish',
-      contract: 'Fulltime contract',
+      contract: 'Full-Time Employee',
       location: 'On Site'
     },
     {
@@ -88,7 +103,7 @@ export const experiences = [
       to_month: 'june',
       to_year: 2016,
       language: 'Spanish',
-      contract: 'Fulltime contract',
+      contract: 'Full-Time Employee',
       location: 'On Site'
     },
 ];

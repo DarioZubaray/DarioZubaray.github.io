@@ -1,11 +1,14 @@
 import React from 'react';
 import { experiences } from '../../data/experiences';
 
+import noImage from '../../static/no-image.png';
 import tultix from '../../static/tultix.jpg';
 import imagosur from '../../static/imagosur.jpg';
 import globant from '../../static/globant.jpg';
 import accelone from '../../static/accelone.jpg';
 import number8 from '../../static/number8.png';
+import accenture from '../../static/Accenture.png';
+
 import { ExperienceDescriptionHeader, ExperienceDescriptionBody } from './ExperienceDescription';
 
 const getImageResource = (imageName) => {
@@ -20,8 +23,10 @@ const getImageResource = (imageName) => {
             return accelone;
         case 'Number 8':
             return number8;
+        case 'Accenture':
+            return accenture;
         default:
-            return;
+            return noImage;
     }
 }
 
