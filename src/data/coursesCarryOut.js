@@ -697,16 +697,26 @@ export const courses = [
     },
     {
         id: 65,
+        name: 'React Query Un poderoso gestor de estado asíncrono',
+        organization: devtalles,
+        start: 'dec 2022',
+        end: 'dec 2022',
+        duration: 5,
+        certification: 'https://cursos.devtalles.com/certificates/ku6roxczap',
+        tags: [ tags.programming.frontend.web.javascript, tags.programming.frontend.web.framework.react, tags.language.spanish, tags.instructor.fernandoHerrera, tags.all ]
+    },
+    {
+        id: 66,
         name: 'Flutter Avanzado: Lleva tu conocimiento al siguiente nivel',
         organization: udemy2021,
-        start: 'oct 2022',
+        start: 'dec 2022',
         end: 'feb 2023',
         duration: 35,
         certification: 'https://udemy-certificate.s3.amazonaws.com/pdf/UC-e51c0017-e259-41a4-a16d-f6ed2757b355.pdf',
         tags: [ tags.programming.frontend.mobile.dart.framework.flutter, tags.language.spanish, tags.instructor.fernandoHerrera, tags.all ]
     },
     {
-        id: 66,
+        id: 67,
         name: 'Inteligencia Emocional y su efecto en tus destrezas sociales',
         organization: udemy2021,
         start: 'nov 2023',
@@ -716,7 +726,7 @@ export const courses = [
         tags: [ tags.programming.others, tags.language.spanish, tags.all ]
     },
     {
-        id: 67,
+        id: 68,
         name: 'Conviértete en un excelente comunicador en público',
         organization: udemy2021,
         start: 'dic 2023',
@@ -726,7 +736,7 @@ export const courses = [
         tags: [ tags.programming.others, tags.language.spanish, tags.all ]
     },
     {
-        id: 68,
+        id: 69,
         name: 'Fundamentos para el diseño de Base de datos Relacionales',
         organization: udemy2021,
         start: 'jan 2024',
@@ -736,7 +746,7 @@ export const courses = [
         tags: [ tags.programming.others, tags.language.spanish, tags.all ]
     },
     {
-        id: 69,
+        id: 70,
         name: 'Ultimate AWS Certified Developer Associate 2024 NEW DVA-C02',
         organization: udemy2021,
         start: 'jan 2024',
