@@ -97,6 +97,7 @@ export const Navbar = () => {
               <a
                 className="nav-item nav-link"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://docs.google.com/document/d/15sfZrsMZ2ZWgRG9LBEU-K4Oqznnll2jM/edit?usp=sharing&ouid=104234044979117055430&rtpof=true&sd=true"
               >
                 CV
