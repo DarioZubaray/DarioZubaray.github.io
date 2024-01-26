@@ -1,7 +1,10 @@
 import React from 'react';
 import moment from 'moment';
+import ReactRotatingText from 'react-rotating-text';
+import '../ui/introduceCard.css';
+
 import { biography, linkedinUrl } from '../../data/biography';
-import circleCropped from '../../static/circle-cropped.png'
+import circleCropped from '../../static/circle-cropped.png';
 
 export const IntroduceCard = () => {
     return (
@@ -20,7 +23,13 @@ export const IntroduceCard = () => {
                         </div>
                         <div className="col-md-8">
                             <h1 className="py-2">Dario Zubaray</h1>
-                            <h3 className="pb-4">Software Developer</h3>
+
+                            <h3 className="pb-4">
+                                <ReactRotatingText 
+                                    items={['Software Engineer', 'Developer', 'Programmer', 'Coder']}
+                                />
+                            </h3>
+
                             { biography.map( (b, i) => (
                                 <div className="text-justify" key={i}>
                                     {
