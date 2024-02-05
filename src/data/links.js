@@ -20,6 +20,11 @@ export const publicProfile = [
         nombre: 'LinkedIn'
     },
     {
+        url: 'https://calendly.com/dariozubaray/15min',
+        emoji: '📅',
+        nombre: 'Schedule a brief meeting/Agenda una breve reunión'
+    },
+    {
         url: 'https://remoteok.com/@dariozubaray',
         emoji: '🆗',
         nombre: 'RemoteOK'
@@ -27,7 +32,12 @@ export const publicProfile = [
     {
         url: 'https://twitter.com/DarioZubaray',
         emoji: '🐦',
-        nombre: 'Twitter'
+        nombre: 'Twitter/X'
+    },
+    {
+        url: 'https://flowcv.com/resume/huahl4r9ua',
+        emoji: '📜',
+        nombre: 'Flowcv'
     },
     {
         url: 'https://dar10comyr.blogspot.com/',
