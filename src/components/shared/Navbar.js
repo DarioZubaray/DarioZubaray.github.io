@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import pdf from '../../static/Dario-Zubaray-FlowCV-Resume-20240204.pdf'
 
 export const Navbar = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -98,7 +99,7 @@ export const Navbar = () => {
                 className="nav-item nav-link"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://docs.google.com/document/d/15sfZrsMZ2ZWgRG9LBEU-K4Oqznnll2jM/edit?usp=sharing&ouid=104234044979117055430&rtpof=true&sd=true"
+                href={pdf}
               >
                 CV
               </a>
