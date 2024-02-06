@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "783e4b46d7724cd487384cacf973a1d4",
+    "revision": "7883bc7bc21a362f3c9bbac8a7aa1149",
     "url": "/index.html"
   },
   {
-    "revision": "f88b24801418f0e32f96",
+    "revision": "955b1920d0452b2abc2b",
     "url": "/static/css/2.fc935826.chunk.css"
   },
   {
-    "revision": "209b1557adb4fa17cc81",
-    "url": "/static/css/main.ad291cce.chunk.css"
+    "revision": "d250def663b7456338a2",
+    "url": "/static/css/main.2f6a4928.chunk.css"
   },
   {
-    "revision": "f88b24801418f0e32f96",
-    "url": "/static/js/2.dfc7bf06.chunk.js"
+    "revision": "955b1920d0452b2abc2b",
+    "url": "/static/js/2.57018357.chunk.js"
   },
   {
     "revision": "5bae6a6c19b45aed9a777adcc2ea7a32",
-    "url": "/static/js/2.dfc7bf06.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.57018357.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "209b1557adb4fa17cc81",
-    "url": "/static/js/main.c79de592.chunk.js"
+    "revision": "d250def663b7456338a2",
+    "url": "/static/js/main.229707e3.chunk.js"
   },
   {
     "revision": "f2e5371dbd7b5ab1fa21",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b7952e7ccf89f163af6ead7d6e00369d",
     "url": "/static/media/Accenture.b7952e7c.png"
+  },
+  {
+    "revision": "2e4ad61a5aff23ee5a36c1f3470f0301",
+    "url": "/static/media/Dario-Zubaray-FlowCV-Resume-20240206.2e4ad61a.pdf"
   },
   {
     "revision": "2e2f13cba93f4ca150ba4789f55edf77",

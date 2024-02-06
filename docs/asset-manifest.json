@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.ad291cce.chunk.css",
-    "main.js": "/static/js/main.c79de592.chunk.js",
-    "main.js.map": "/static/js/main.c79de592.chunk.js.map",
+    "main.css": "/static/css/main.2f6a4928.chunk.css",
+    "main.js": "/static/js/main.229707e3.chunk.js",
+    "main.js.map": "/static/js/main.229707e3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9d03ed56.js",
     "runtime-main.js.map": "/static/js/runtime-main.9d03ed56.js.map",
     "static/css/2.fc935826.chunk.css": "/static/css/2.fc935826.chunk.css",
-    "static/js/2.dfc7bf06.chunk.js": "/static/js/2.dfc7bf06.chunk.js",
-    "static/js/2.dfc7bf06.chunk.js.map": "/static/js/2.dfc7bf06.chunk.js.map",
+    "static/js/2.57018357.chunk.js": "/static/js/2.57018357.chunk.js",
+    "static/js/2.57018357.chunk.js.map": "/static/js/2.57018357.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.50038c88ff2383c8ac24039e095eb1b0.js": "/precache-manifest.50038c88ff2383c8ac24039e095eb1b0.js",
+    "precache-manifest.697db463c7c9722cbf9e26574361b799.js": "/precache-manifest.697db463c7c9722cbf9e26574361b799.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.fc935826.chunk.css.map": "/static/css/2.fc935826.chunk.css.map",
-    "static/css/main.ad291cce.chunk.css.map": "/static/css/main.ad291cce.chunk.css.map",
-    "static/js/2.dfc7bf06.chunk.js.LICENSE.txt": "/static/js/2.dfc7bf06.chunk.js.LICENSE.txt",
+    "static/css/main.2f6a4928.chunk.css.map": "/static/css/main.2f6a4928.chunk.css.map",
+    "static/js/2.57018357.chunk.js.LICENSE.txt": "/static/js/2.57018357.chunk.js.LICENSE.txt",
     "static/media/Accenture.png": "/static/media/Accenture.b7952e7c.png",
+    "static/media/Dario-Zubaray-FlowCV-Resume-20240206.pdf": "/static/media/Dario-Zubaray-FlowCV-Resume-20240206.2e4ad61a.pdf",
     "static/media/accelone.jpg": "/static/media/accelone.2e2f13cb.jpg",
     "static/media/circle-cropped.png": "/static/media/circle-cropped.c861789e.png",
     "static/media/globant.jpg": "/static/media/globant.36bd2233.jpg",
@@ -25,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.9d03ed56.js",
     "static/css/2.fc935826.chunk.css",
-    "static/js/2.dfc7bf06.chunk.js",
-    "static/css/main.ad291cce.chunk.css",
-    "static/js/main.c79de592.chunk.js"
+    "static/js/2.57018357.chunk.js",
+    "static/css/main.2f6a4928.chunk.css",
+    "static/js/main.229707e3.chunk.js"
   ]
 }
