@@ -24,11 +24,7 @@ export const TicTacToeBoard = () => {
   const renderSquare = (i) => {
     let color = 'black'
     if ( winnerCombination.length > 0 ) {
-      if ( winnerCombination.includes(i) ) {
-        color = 'green'
-      } else {
-        color = 'red'
-      }
+      color = winnerCombination.includes(i) ? 'green' : 'red';
     }
     return (
       <TicTacToeButton
@@ -50,43 +46,38 @@ export const TicTacToeBoard = () => {
   }
 
   const calculateWinner = useCallback(() => {
-    return () => {
-      console.log('calculate winner')
-
-      for (let i = 0; i < lines.length; i++) {
-        const [a, b, c] = lines[i];
-        if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
-
-          if (gameOver !== true) {
-            setGameOver(true);
-            setWinnerCombination([a, b, c]);
-          }
-
-          return squares[a];
+  
+    for (let i = 0; i < lines.length; i++) {
+      const [a, b, c] = lines[i];
+      if (squares[a] && squares[a] === squares[b] && squares[a] === squares[c]) {
+        if (!gameOver) {
+          setGameOver(true);
+          setWinnerCombination([a, b, c]);
         }
-      }
-
-      setGameOver(!squares.includes(null))
-      return null;
-    }
-  }, [gameOver, squares])
-
-  const calculateGameStatus = useCallback(() => {
-    return (winner) => {
-      let currentStatus = '';
-      if (winner) {
-        currentStatus = 'Winner: ' + winner;
-      } else if ( gameOver ) {
-        currentStatus = 'Tied: No more moves!';
-      } else {
-        currentStatus = 'Next player: ' + (xIsNext ? 'X' : 'O');
-      }
-
-      if (status !== currentStatus) {
-        setStatus(currentStatus);
+        return squares[a];
       }
     }
-  }, [gameOver, status, xIsNext])
+  
+    setGameOver(!squares.includes(null));
+    return null;
+  }, [gameOver, squares, setGameOver, setWinnerCombination]);
+  
+
+  const calculateGameStatus = useCallback((winner) => {
+    let currentStatus = '';
+    if (winner) {
+      currentStatus = 'Winner: ' + winner;
+    } else if (gameOver) {
+      currentStatus = 'Tied: No more moves!';
+    } else {
+      currentStatus = 'Next player: ' + (xIsNext ? 'X' : 'O');
+    }
+  
+    if (status !== currentStatus) {
+      setStatus(currentStatus);
+    }
+  }, [gameOver, xIsNext, status, setStatus]);
+ 
 
   useEffect(() => {
     const winner = calculateWinner();
