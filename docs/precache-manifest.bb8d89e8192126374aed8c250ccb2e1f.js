@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7883bc7bc21a362f3c9bbac8a7aa1149",
+    "revision": "ea4aa39dda6cb75a435ad4f61f08c3c8",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.fc935826.chunk.css"
   },
   {
-    "revision": "d250def663b7456338a2",
+    "revision": "192171614e50b1d34801",
     "url": "/static/css/main.2f6a4928.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.57018357.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d250def663b7456338a2",
-    "url": "/static/js/main.229707e3.chunk.js"
+    "revision": "192171614e50b1d34801",
+    "url": "/static/js/main.5ef5f94a.chunk.js"
   },
   {
     "revision": "f2e5371dbd7b5ab1fa21",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Accenture.b7952e7c.png"
   },
   {
-    "revision": "2e4ad61a5aff23ee5a36c1f3470f0301",
-    "url": "/static/media/Dario-Zubaray-FlowCV-Resume-20240206.2e4ad61a.pdf"
+    "revision": "b2cff3567735a4f3e1e5a3045ba6c77b",
+    "url": "/static/media/Dario-Zubaray-FlowCV-Resume.b2cff356.pdf"
   },
   {
     "revision": "2e2f13cba93f4ca150ba4789f55edf77",
