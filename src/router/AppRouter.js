@@ -10,6 +10,7 @@ import { Footer } from '../components/shared/Footer';
 import { StudiesScreen } from '../components/portfolio/StudiesScreen';
 import { LinksScreen } from '../components/portfolio/LinksScreen'
 import { DemoScreen } from '../components/portfolio/DemoScreen';
+import { ConversorScreen } from '../components/portfolio/ConversorScreen';
 
 export const AppRouter = () => {
 
@@ -44,6 +45,9 @@ export const AppRouter = () => {
               </Route>
               <Route path="/github">
                 <GithubScreen />
+              </Route>
+              <Route path="/conversor">
+                <ConversorScreen />
               </Route>
               <Route path="/">
                 <HomeScreen />
