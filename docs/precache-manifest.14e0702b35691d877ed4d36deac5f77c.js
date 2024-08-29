@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea4aa39dda6cb75a435ad4f61f08c3c8",
+    "revision": "ff05da5c850134354c0fd9eae3f557e1",
     "url": "/index.html"
   },
   {
-    "revision": "955b1920d0452b2abc2b",
+    "revision": "37082c715f52a491db0b",
     "url": "/static/css/2.fc935826.chunk.css"
   },
   {
-    "revision": "192171614e50b1d34801",
+    "revision": "22dc3e761f97ab8e51ae",
     "url": "/static/css/main.2f6a4928.chunk.css"
   },
   {
-    "revision": "955b1920d0452b2abc2b",
-    "url": "/static/js/2.57018357.chunk.js"
+    "revision": "37082c715f52a491db0b",
+    "url": "/static/js/2.8647a6d8.chunk.js"
   },
   {
     "revision": "5bae6a6c19b45aed9a777adcc2ea7a32",
-    "url": "/static/js/2.57018357.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.8647a6d8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "192171614e50b1d34801",
-    "url": "/static/js/main.5ef5f94a.chunk.js"
+    "revision": "22dc3e761f97ab8e51ae",
+    "url": "/static/js/main.cc7caa6d.chunk.js"
   },
   {
     "revision": "f2e5371dbd7b5ab1fa21",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Accenture.b7952e7c.png"
   },
   {
-    "revision": "b2cff3567735a4f3e1e5a3045ba6c77b",
-    "url": "/static/media/Dario-Zubaray-FlowCV-Resume.b2cff356.pdf"
+    "revision": "2a6beb47ab0d77e92998ebcdf28311fe",
+    "url": "/static/media/Dario-Zubaray-FlowCV-Resume.2a6beb47.pdf"
   },
   {
     "revision": "2e2f13cba93f4ca150ba4789f55edf77",
