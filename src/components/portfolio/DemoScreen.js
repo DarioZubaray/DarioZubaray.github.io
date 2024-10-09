@@ -10,7 +10,13 @@ export const DemoScreen = () => {
 
         <h3>Conversor</h3>
         <Link to="/conversor">
-          <button className="btn btn-secondary">Navigate</button>
+          <button className="btn btn-secondary">Conversor</button>
+        </Link>
+        <Link to="/conversor#complementary">
+          <button className="btn btn-secondary">Complementary to 1</button>
+        </Link>
+        <Link to="/conversor#Operations">
+          <button className="btn btn-secondary">Oerations</button>
         </Link>
         <hr/>
 

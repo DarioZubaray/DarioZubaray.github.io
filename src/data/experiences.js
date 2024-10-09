@@ -1,5 +1,21 @@
 export const experiences = [
     {
+      company: "Botmaker",
+      title: "Fullstack developer, Java & Javascript + Typescript",
+      description: [
+          "Diseño de algoritmos y diagramas de flujos, produciendo un código limpio y eficiente basado en las especificaciones. ",
+          "Integración de componentes de software con programas de terceros, verificacion y despliegue de programas y sistemas. ",
+          "Solucion a problemas, depurando y actualizando software existente. ",
+          "Recopilando y evaluando los comentarios de los usuarios, dando recomendaciones y realizar mejoras. ",
+          "Crear documentación técnica para referencia e informes"
+      ],
+      from_month: 'June',
+      from_year: 2024,
+      language: 'Spanish',
+      contract: 'Full-Time Employee',
+      location: 'Remote'
+    },
+    {
       company: "Accenture",
       title: "Java developer",
       description: [
