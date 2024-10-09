@@ -8,6 +8,7 @@ import globant from '../../static/globant.jpg';
 import accelone from '../../static/accelone.jpg';
 import number8 from '../../static/number8.png';
 import accenture from '../../static/Accenture.png';
+import botmaker from '../../static/botmaker.jpg';
 
 import { ExperienceDescriptionHeader, ExperienceDescriptionBody } from './ExperienceDescription';
 
@@ -25,6 +26,8 @@ const getImageResource = (imageName) => {
             return number8;
         case 'Accenture':
             return accenture;
+        case 'Botmaker':
+            return botmaker;
         default:
             return noImage;
     }

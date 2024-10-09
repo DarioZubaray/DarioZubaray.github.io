@@ -23,6 +23,10 @@
         "devtalles": {
             "name": "Devtalles",
             "webSite": "https://cursos.devtalles.com/"
+        },
+        "uai": {
+            "name": "Universidad Abierta Interamericana",
+            "webSite": "https://uai.edu.ar/"
         }
     },
 
@@ -39,7 +43,8 @@
                         "spring": "spring"
                     }
                 },
-                "node": "nodejs"
+                "node": "nodejs",
+                "c": "C-language"
             },
             "frontend": {
                 "web": {
@@ -65,7 +70,9 @@
                 }
             },
             "devops": "devops",
-            "others": "others"
+            "others": "others",
+            "math": "math",
+            "university": "university"
         },
         "instructor": {
             "fernandoHerrera": "fernando herrera"
@@ -757,6 +764,45 @@
             "duration": 32.5,
             "certification": "",
             "tags": [ "tags.programming.devops", "tags.language.english", "tags.all" ]
+        },
+        {
+            "id": 71,
+            "name": "Laboratorio de Cálculo",
+            "organization": "uai",
+            "start": "aug 2024",
+            "end": "at present",
+            "duration": 96,
+            "certification": "",
+            "tags": [ "tags.programming.math", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },
+        {
+            "id": 72,
+            "name": "Programación Estructurada",
+            "organization": "uai",
+            "start": "aug 2024",
+            "end": "at present",
+            "duration": 80,
+            "certification": "",
+            "tags": [ "tags.programming.devops", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },
+        {
+            "id": 73,
+            "name": "Sistemas de computación I",
+            "organization": "uai",
+            "start": "aug 2024",
+            "end": "at present",
+            "duration": 96,
+            "certification": "",
+            "tags": [ "tags.programming.devops", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 74,
+            "name": "Inglés I",
+            "organization": "uai",
+            "start": "aug 2024",
+            "end": "at present",
+            "duration": 32,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
         }
     ]
 }

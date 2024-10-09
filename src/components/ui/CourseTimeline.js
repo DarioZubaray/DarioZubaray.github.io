@@ -7,8 +7,9 @@ import cetae from '../../static/cetae.jpg';
 import educacionIt from '../../static/educacionit-bordered.jpg';
 import platzi from '../../static/platzi.jpg';
 import udemy from '../../static/udemy.jpg';
-import udemy2021 from '../../static/udemy-2021-plus.jpg'
-import devtalles from '../../static/devtalles.jpg'
+import udemy2021 from '../../static/udemy-2021-plus.jpg';
+import devtalles from '../../static/devtalles.jpg';
+import uai from '../../static/uai.png';
 
 export const CourseTimeline = ({ course }) => {
 
@@ -26,6 +27,8 @@ export const CourseTimeline = ({ course }) => {
                 return platzi;
             case 'devtalles':
                 return devtalles;
+            case 'uai':
+                return uai;
             default:
                 return;
         }
