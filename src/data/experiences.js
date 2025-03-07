@@ -9,8 +9,11 @@ export const experiences = [
           "Recopilando y evaluando los comentarios de los usuarios, dando recomendaciones y realizar mejoras. ",
           "Crear documentación técnica para referencia e informes"
       ],
-      from_month: 'June',
-      from_year: 2024,
+      from: {
+        month: 6,
+        monthName: 'June',
+        year: 2024
+      },
       language: 'Spanish',
       contract: 'Full-Time Employee',
       location: 'Remote'
@@ -22,10 +25,16 @@ export const experiences = [
           "Backend Development on AWS: Designed, implemented and maintained backend services using Java on AWS.",
           "This covered the creation of endpoints in API Gateway to handle HTTP requests, integration with DynamoDB, S3, Lambdas, pipelines and steps Functions."
       ],
-      from_month: 'April',
-      from_year: 2023,
-      to_month: 'January',
-      to_year: 2024,
+      from: {
+        month: 4,
+        monthName: 'April',
+        year: 2023
+      },
+      to: {
+        month: 1,
+        monthName: 'January',
+        year: 2024
+      },
       language: 'Spanish, English',
       contract: 'Full-Time Employee',
       location: 'Remote'
@@ -37,10 +46,16 @@ export const experiences = [
           "Full stack development with Java and React. Microservices with Java 1.8 built with spring boot and gradle. Lombok. Unit tests based on groovy’s spock framework. Running on docker containers. ",
           "React 16.9 with hooks in typescript, react-router, REDUX, Forms based on Formik."
       ],
-      from_month: 'March',
-      from_year: 2022,
-      to_month: 'August',
-      to_year: 2022,
+      from: {
+        month: 3,
+        monthName: 'March',
+        year: 2022
+      },
+      to: {
+        month: 8,
+        monthName: 'August',
+        year: 2022
+      },
       language: 'English',
       contract: 'Contractor',
       location: 'Remote'
@@ -51,10 +66,16 @@ export const experiences = [
       description: [
           "Salesforce backend developing using Apex language to trigger on difeferent events to automate the creation of third-party services such as meeting rooms and surveys"
       ],
-      from_month: 'september',
-      from_year: 2021,
-      to_month: 'december',
-      to_year: 2021,
+      from: {
+        month: 9,
+        monthName: 'September',
+        year: 2021
+      },
+      to: {
+        month: 12,
+        monthName: 'December',
+        year: 2021
+      },
       language: 'English',
       contract: 'Contractor',
       location: 'Remote'
@@ -65,10 +86,16 @@ export const experiences = [
       description: [
           "Developing cloud functions in AWS-steps using Node Js as programming language to retrieve a collection of data from different third parties APIs storing that data into Atlas mongo clusters"
       ],
-      from_month: 'april',
-      from_year: 2021,
-      to_month: 'september',
-      to_year: 2021,
+      from: {
+        month: 4,
+        monthName: 'April',
+        year: 2021
+      },
+      to: {
+        month: 9,
+        monthName: 'September',
+        year: 2021
+      },
       language: 'Spanish, English',
       contract: 'Full-Time Employee',
       location: 'Remote'
@@ -80,10 +107,16 @@ export const experiences = [
           "Analysis, design, development, testing and documentation generation of java applications based on microservices built with spring boot projects and maven, spring modules like cloud-eureka-hystrix. No-sql database like dynamodb, integration with cognito, cloudwatch monitoring and codecommit as csm.",
           "Running on docker containers, managed by kubernetes clusters on AWS platform. Agile framework based on scrum and 2 week sprint."
       ],
-      from_month: 'september',
-      from_year: 2020,
-      to_month: 'april',
-      to_year: 2021,
+      from: {
+        month: 9,
+        monthName: 'September',
+        year: 2020
+      },
+      to: {
+        month: 4,
+        monthName: 'April',
+        year: 2021
+      },
       language: 'Spanish',
       contract: 'Full-Time Employee',
       location: 'Remote'
@@ -99,10 +132,16 @@ export const experiences = [
 
           "DataBases used SqlServer, MySQL, Teradata, Informix, source code management with SVN & GIT, documentation generation with Swagger, continuous Integration using Jenkins jobs, sonarqube, nexus binary repositoy. Deployment on app-servers or docker's containers, monitoring in Test using JMeter, analysis of logs."
       ],
-      from_month: 'june',
-      from_year: 2016,
-      to_month: 'september',
-      to_year: 2020,
+      from: {
+        month: 6,
+        monthName: 'June',
+        year: 2016
+      },
+      to: {
+        month: 9,
+        monthName: 'September',
+        year: 2020
+      },
       language: 'Spanish',
       contract: 'Full-Time Employee',
       location: 'On Site'
@@ -114,10 +153,16 @@ export const experiences = [
           "Research, development and implementation of Java J2SE applications, design of CRUD operations with hibernate on databases such as MySql and SqlServer.",
           "Use of libraries such as JavaMail, Apache Poi, Apache Fop. Java Web: JSF, PrimeFaces, PrimeFaces Mobile. Scraping with HtmlUnit, repetition of Tasks with Quartz Cron, code optimization and obfuscation with Proguard, code decompilation with Java Decompiler. Project versioning with SVN."
       ],
-      from_month: 'march',
-      from_year: 2016,
-      to_month: 'june',
-      to_year: 2016,
+      from: {
+        month: 3,
+        monthName: 'March',
+        year: 2016
+      },
+      to: {
+        month: 6,
+        monthName: 'June',
+        year: 2016
+      },
       language: 'Spanish',
       contract: 'Full-Time Employee',
       location: 'On Site'
