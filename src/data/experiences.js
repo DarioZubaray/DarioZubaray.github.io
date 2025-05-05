@@ -11,7 +11,7 @@ export const experiences = [
       ],
       from: {
         month: 6,
-        monthName: 'June',
+        monthName: 'July',
         year: 2024
       },
       language: 'Spanish',
