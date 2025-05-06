@@ -10,7 +10,7 @@ export const experiences = [
           "Crear documentación técnica para referencia e informes"
       ],
       from: {
-        month: 6,
+        month: 7,
         monthName: 'July',
         year: 2024
       },
