@@ -809,7 +809,7 @@
             "name": "Cálculo Infinitesimal",
             "organization": "uai",
             "start": "apr 2025",
-            "end": "at present",
+            "end": "jul 2025",
             "duration": 96,
             "certification": "",
             "tags": [ "tags.programming.math", "tags.programming.university", "tags.language.spanish", "tags.all" ]
@@ -819,7 +819,7 @@
             "name": "Programación I",
             "organization": "uai",
             "start": "apr 2025",
-            "end": "at present",
+            "end": "jul 2025",
             "duration": 96,
             "certification": "",
             "tags": [ "tags.programming.devops", "tags.programming.university", "tags.language.spanish", "tags.all" ]
@@ -829,7 +829,7 @@
             "name": "Sistemas de computación II",
             "organization": "uai",
             "start": "apr 2025",
-            "end": "at present",
+            "end": "jul 2025",
             "duration": 80,
             "certification": "",
             "tags": [ "tags.programming.devops", "tags.programming.university", "tags.language.spanish", "tags.all" ]
@@ -838,8 +838,44 @@
             "name": "Inglés II",
             "organization": "uai",
             "start": "apr 2025",
-            "end": "at present",
+            "end": "jul 2025",
             "duration": 32,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 79,
+            "name": "Programación Orientada a Objetos",
+            "organization": "uai",
+            "start": "aug 2025",
+            "end": "at present",
+            "duration": 96,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 80,
+            "name": "Metodología de Desarrollo de Sistemas I",
+            "organization": "uai",
+            "start": "aug 2025",
+            "end": "at present",
+            "duration": 96,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 81,
+            "name": "Arquitectura de Sistemas Operativos",
+            "organization": "uai",
+            "start": "aug 2025",
+            "end": "at present",
+            "duration": 80,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 82,
+            "name": "Problemática del Mundo Actual",
+            "organization": "uai",
+            "start": "aug 2025",
+            "end": "at present",
+            "duration": 80,
             "certification": "",
             "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
         }
