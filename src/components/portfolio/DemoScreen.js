@@ -8,15 +8,12 @@ export const DemoScreen = () => {
     <div className='card'>
       <div className='card-body'>
 
-        <h3>Conversor</h3>
+        <h3>Links</h3>
         <Link to="/conversor">
-          <button className="btn btn-secondary">Conversor</button>
+          <button className="btn btn-secondary mx-2">Binary Conversor</button>
         </Link>
-        <Link to="/conversor#complementary">
-          <button className="btn btn-secondary">Complementary to 1</button>
-        </Link>
-        <Link to="/conversor#Operations">
-          <button className="btn btn-secondary">Oerations</button>
+        <Link to="/type-matchup">
+          <button className="btn btn-secondary mx-2">Type match Quiz</button>
         </Link>
         <hr/>
 

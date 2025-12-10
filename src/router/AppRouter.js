@@ -11,6 +11,7 @@ import { StudiesScreen } from '../components/portfolio/StudiesScreen';
 import { LinksScreen } from '../components/portfolio/LinksScreen'
 import { DemoScreen } from '../components/portfolio/DemoScreen';
 import { ConversorScreen } from '../components/portfolio/ConversorScreen';
+import TypeMatchupScreen from '../components/portfolio/TypeMatchupScreen';
 
 export const AppRouter = () => {
 
@@ -48,6 +49,9 @@ export const AppRouter = () => {
               </Route>
               <Route path="/conversor">
                 <ConversorScreen />
+              </Route>
+              <Route path="/type-matchup">
+                <TypeMatchupScreen />
               </Route>
               <Route path="/">
                 <HomeScreen />
