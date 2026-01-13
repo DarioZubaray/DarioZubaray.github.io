@@ -847,7 +847,7 @@
             "name": "Programación Orientada a Objetos",
             "organization": "uai",
             "start": "aug 2025",
-            "end": "at present",
+            "end": "mar 2026",
             "duration": 96,
             "certification": "",
             "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
@@ -856,7 +856,7 @@
             "name": "Metodología de Desarrollo de Sistemas I",
             "organization": "uai",
             "start": "aug 2025",
-            "end": "at present",
+            "end": "dec 2025",
             "duration": 96,
             "certification": "",
             "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
@@ -865,7 +865,7 @@
             "name": "Arquitectura de Sistemas Operativos",
             "organization": "uai",
             "start": "aug 2025",
-            "end": "at present",
+            "end": "dec 2025",
             "duration": 80,
             "certification": "",
             "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
@@ -874,8 +874,53 @@
             "name": "Problemática del Mundo Actual",
             "organization": "uai",
             "start": "aug 2025",
-            "end": "at present",
+            "end": "dec 2025",
             "duration": 80,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 83,
+            "name": "Godot desde cero: Aprende a programar y crear videojuegos 2D",
+            "organization": "udemy2021",
+            "start": "jan 2025",
+            "end": "at present",
+            "duration": 16.5,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 84,
+            "name": "Tecnología de las Comunicaciones",
+            "organization": "uai",
+            "start": "apr 2026",
+            "end": "at present",
+            "duration": 96,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 85,
+            "name": "Lenguajes de Última Generación",
+            "organization": "uai",
+            "start": "apr 2026",
+            "end": "at present",
+            "duration": 96,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 86,
+            "name": "Metodología de Desarrollo de Sistemas II",
+            "organization": "uai",
+            "start": "apr 2026",
+            "end": "at present",
+            "duration": 96,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 87,
+            "name": "Bases de Datos",
+            "organization": "uai",
+            "start": "apr 2026",
+            "end": "at present",
+            "duration": 64,
             "certification": "",
             "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
         }
