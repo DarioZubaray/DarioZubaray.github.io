@@ -15,6 +15,9 @@ export const DemoScreen = () => {
         <Link to="/type-matchup">
           <button className="btn btn-secondary mx-2">Type match Quiz</button>
         </Link>
+        <Link to="/flappy-wiu">
+          <button className="btn btn-secondary mx-2">Flappy Wiu</button>
+        </Link>
         <hr/>
 
         <h3>Calculator</h3>

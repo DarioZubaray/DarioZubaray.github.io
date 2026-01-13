@@ -12,6 +12,7 @@ import { LinksScreen } from '../components/portfolio/LinksScreen'
 import { DemoScreen } from '../components/portfolio/DemoScreen';
 import { ConversorScreen } from '../components/portfolio/ConversorScreen';
 import TypeMatchupScreen from '../components/portfolio/TypeMatchupScreen';
+import FlappyWiuScreen from '../components/portfolio/FlappyWiuScreen';
 
 export const AppRouter = () => {
 
@@ -52,6 +53,9 @@ export const AppRouter = () => {
               </Route>
               <Route path="/type-matchup">
                 <TypeMatchupScreen />
+              </Route>
+              <Route path="/flappy-wiu">
+                <FlappyWiuScreen />
               </Route>
               <Route path="/">
                 <HomeScreen />
