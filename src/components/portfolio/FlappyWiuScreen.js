@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import Wiu from '../ui/flappy-wiu/Wiu';
 import Pipe from '../ui/flappy-wiu/Pipe';
 import { CONSTANTS } from '../ui/flappy-wiu/FlappyWiuConstants';
@@ -18,7 +18,7 @@ const FlappyWiuScreen = () => {
   const screenWidth = 800;
   const screenHeight = 600;
 
-  const jump = () => {
+  const jump = useCallback(() => {
     if (!gameStarted) {
       setGameStarted(true);
       setPipes([{ x: screenWidth, topHeight: Math.random() * 250 + 100, passed: false }]);
@@ -26,7 +26,7 @@ const FlappyWiuScreen = () => {
     if (!gameOver) {
       setBirdVelocity(JUMP_STRENGTH);
     }
-  };
+  }, [gameStarted, gameOver]);
 
   const resetGame = () => {
     setBirdY(250);
@@ -52,7 +52,7 @@ const FlappyWiuScreen = () => {
 
     window.addEventListener('keydown', handleKeyPress);
     return () => window.removeEventListener('keydown', handleKeyPress);
-  }, [gameOver, gameStarted]);
+  }, [gameOver, gameStarted, jump]);
 
   useEffect(() => {
     if (!gameStarted || gameOver) return;
