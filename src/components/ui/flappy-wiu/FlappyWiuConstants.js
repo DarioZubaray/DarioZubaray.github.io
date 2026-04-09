@@ -1,0 +1,8 @@
+export const CONSTANTS = {
+  GRAVITY: 0.6,
+  JUMP_STRENGTH: -10,
+  PIPE_SPEED: 3,
+  PIPE_GAP: 180,
+  PIPE_WIDTH: 60,
+  WIU_SIZE: 40
+};

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 export const ConversorScreen = () => {
   const [ numbers, setNumber ] = useState({
@@ -114,7 +115,10 @@ export const ConversorScreen = () => {
         </div>
 
         <div>
-          <button type="button" className="btn btn-primary" onClick={onClearHandle}>Clear</button>
+          <Link to="/demo">
+            <button className="btn btn-secondary mx-2">⬅ Back</button>
+          </Link>
+          <button type="button" className="btn btn-primary" onClick={onClearHandle}>🗑️ Clear</button>
         </div>
         <hr/>
       </div>
