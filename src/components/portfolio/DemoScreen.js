@@ -16,7 +16,7 @@ export const DemoScreen = () => {
           <button className="btn btn-secondary">Complementary to 1</button>
         </Link>
         <Link to="/conversor#Operations">
-          <button className="btn btn-secondary">Oerations</button>
+          <button className="btn btn-secondary">Operations</button>
         </Link>
         <hr/>
 
