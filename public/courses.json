@@ -847,7 +847,7 @@
             "name": "Programación Orientada a Objetos",
             "organization": "uai",
             "start": "aug 2025",
-            "end": "at present",
+            "end": "dec 2025",
             "duration": 96,
             "certification": "",
             "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
@@ -856,7 +856,7 @@
             "name": "Metodología de Desarrollo de Sistemas I",
             "organization": "uai",
             "start": "aug 2025",
-            "end": "at present",
+            "end": "dec 2025",
             "duration": 96,
             "certification": "",
             "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
@@ -865,7 +865,7 @@
             "name": "Arquitectura de Sistemas Operativos",
             "organization": "uai",
             "start": "aug 2025",
-            "end": "at present",
+            "end": "dec 2025",
             "duration": 80,
             "certification": "",
             "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
@@ -874,8 +874,80 @@
             "name": "Problemática del Mundo Actual",
             "organization": "uai",
             "start": "aug 2025",
-            "end": "at present",
+            "end": "dec 2025",
             "duration": 80,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 83,
+            "name": "Godot desde cero: Aprende a programar y crear videojuegos 2D",
+            "organization": "udemy2021",
+            "start": "dec 2025",
+            "end": "feb 2026",
+            "duration": 16.5,
+            "certification": "https://www.udemy.com/certificate/UC-3605ffad-d990-426b-a961-b38ee6755de1/",
+            "tags": [ "tags.programming.others", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 84,
+            "name": "Máster de videojuegos en 2D con Godot 4 y GDScript",
+            "organization": "udemy2021",
+            "start": "feb 2026",
+            "end": "feb 2026",
+            "duration": 24,
+            "certification": "https://www.udemy.com/certificate/UC-2f3230f3-2ba3-4518-b586-1327cdd62e7d/",
+            "tags": [ "tags.programming.others", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 85,
+            "name": "Diseño y Producción de videojuegos de 0 a Profesional",
+            "organization": "udemy2021",
+            "start": "mar 2026",
+            "end": "mar 2026",
+            "duration": 49,
+            "certification": "https://www.udemy.com/certificate/UC-685ee118-90bc-4bbf-a764-8d84c9e29231/",
+            "tags": [ "tags.programming.others", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 86,
+            "name": "Pixel Art Mastery Course: Beginner To Pixel Art Professional",
+            "organization": "udemy2021",
+            "start": "mar 2026",
+            "end": "apr 2026",
+            "duration": 7.5,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.language.english", "tags.all" ]
+        },{
+            "id": 87,
+            "name": "Tecnología de las Comunicaciones",
+            "organization": "uai",
+            "start": "apr 2026",
+            "end": "at present",
+            "duration": 96,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 88,
+            "name": "Lenguajes de Última Generación",
+            "organization": "uai",
+            "start": "apr 2026",
+            "end": "at present",
+            "duration": 96,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 89,
+            "name": "Metodología de Desarrollo de Sistemas II",
+            "organization": "uai",
+            "start": "apr 2026",
+            "end": "at present",
+            "duration": 96,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 90,
+            "name": "Base de Datos",
+            "organization": "uai",
+            "start": "apr 2026",
+            "end": "at present",
+            "duration": 64,
             "certification": "",
             "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
         }
