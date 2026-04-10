@@ -45,7 +45,7 @@ Me apasiona la **estandarización**, el **Clean Code** y la formación de equipo
 ---
 
 ## Contacto
-- **Ubicación:** Buenos Aires (Disponible para Remoto / Híbrido en CABA y Zona Norte).
-- **LinkedIn:** [linkedin.com/in/tu-perfil](https://www.linkedin.com/in/dario-jose-zubaray)
+- **Ubicación:** Buenos Aires (Disponible para Remoto / Híbrido).
+- **LinkedIn:** [linkedin.com/in/dario-jose-zubaray](https://www.linkedin.com/in/dario-jose-zubaray)
 - **Portfolio:** [darioZubaray.github.io](https://darioZubaray.github.io)
 - **Email:** dzubaray@gmail.com
