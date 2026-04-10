@@ -14,6 +14,11 @@ export const experiences = [
         monthName: 'July',
         year: 2024
       },
+      to: {
+        month: 4,
+        monthName: 'April',
+        year: 2026
+      },
       language: 'Spanish',
       contract: 'Full-Time Employee',
       location: 'Remote'
