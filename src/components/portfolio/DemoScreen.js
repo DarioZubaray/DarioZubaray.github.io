@@ -15,13 +15,8 @@ export const DemoScreen = () => {
         <Link to="/type-matchup">
           <button className="btn btn-secondary mx-2">Type match Quiz</button>
         </Link>
-<<<<<<< HEAD
         <Link to="/conversor#Operations">
           <button className="btn btn-secondary">Operations</button>
-=======
-        <Link to="/flappy-wiu">
-          <button className="btn btn-secondary mx-2">Flappy Wiu</button>
->>>>>>> 7ca6c5f7db896ff0d0eb5b05fc511a2b4414897b
         </Link>
         <hr/>
 
