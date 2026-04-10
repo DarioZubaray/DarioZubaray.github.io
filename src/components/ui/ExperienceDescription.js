@@ -56,7 +56,7 @@ export const ExperienceDescriptionBody = ({ exp }) => {
             </small>
             <small> { exp.from.monthName }</small> { exp.from.year } - 
             <small> { exp.to?.monthName === undefined ? '' : exp.to.monthName }</small> { exp.to?.year === undefined ? 'Actually' : exp.to.year }
-            <span className='white'> ({monthsEmployeed}m - {calculatePorcentage()}%)</span>
+            <span className='white not-selectable'> ({monthsEmployeed}m - {calculatePorcentage()}%)</span>
         </h5>
         <h6>
             <small>

@@ -48,3 +48,13 @@ body {
 .overflow .card-img-top:hover {
   transform: scale(0.95);
 }
+
+.white {
+  color: white;
+}
+
+.not-selectable {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none;     /* IE 10+ y Edge */
+  user-select: none;         /* Estándar (Chrome, Firefox, Opera) */
+}
