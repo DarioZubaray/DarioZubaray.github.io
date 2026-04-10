@@ -38,7 +38,7 @@ Soy un desarrollador con más de 10 años de experiencia transformando problemas
 ---
 
 ## Filosofía de Trabajo
-> "Cualquier tonto puede escribir código que una computadora entienda. Los buenos programadores escriben código que los humanos entiendan."
+> "Cualquier tonto puede escribir código que una computadora entienda. Los buenos programadores escriben código que los humanos entiendan. Martin Fowler."
 
 Me apasiona la **estandarización**, el **Clean Code** y la formación de equipos donde la calidad no se negocia. Si buscas un desarrollador que se preocupe por la tabulación tanto como por la escalabilidad, hablemos.
 
