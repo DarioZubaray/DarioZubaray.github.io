@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import pdf from '../../static/Dario-Zubaray-FlowCV-Resume.pdf'
+import pdf from '../../static/CV_DarioZubaray_EN-Q2.2026.pdf'
 
 export const Navbar = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
