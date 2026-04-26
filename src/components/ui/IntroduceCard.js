@@ -4,7 +4,7 @@ import ReactRotatingText from 'react-rotating-text';
 import '../ui/introduceCard.css';
 
 import { biography, linkedinUrl } from '../../data/biography';
-import circleCropped from '../../static/circle-cropped.png';
+import pixelartProfile from '../../static/pixelart-profile.png';
 
 export const IntroduceCard = () => {
     return (
@@ -14,7 +14,7 @@ export const IntroduceCard = () => {
                     <div className="row">
                         <div className="col-md-4">
                             <img
-                                src={circleCropped}
+                                src={pixelartProfile}
                                 alt="selfie of the author"
                                 className="img-fluid"
                                 width={500}
