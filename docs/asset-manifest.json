@@ -1,8 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.5fc5002c.css",
-    "main.js": "/static/js/main.9b40fee3.js",
-    "static/media/pixelart-profile.png": "/static/media/pixelart-profile.fc911fee8de463282efa.png",
+    "main.js": "/static/js/main.c2131698.js",
+    "static/media/cropped_circle_pixelart.png": "/static/media/cropped_circle_pixelart.ccd2e9dcb4f40fbdf775.png",
+    "static/media/cropped_circle_ms-paint.png": "/static/media/cropped_circle_ms-paint.4504f955e1be479ff25e.png",
+    "static/media/cropped_circle_cartoon.png": "/static/media/cropped_circle_cartoon.25fcaf9261751e4ffba4.png",
+    "static/media/circle-cropped.png": "/static/media/circle-cropped.bbe2047b85987d6168a1.png",
     "static/media/CV_DarioZubaray_EN-Q2-04.2026.pdf": "/static/media/CV_DarioZubaray_EN-Q2-04.2026.40c93206a44146d750d8.pdf",
     "static/media/botmaker.jpg": "/static/media/botmaker.d1c8a7bde80d9d022d05.jpg",
     "service-worker.js": "/service-worker.js",
@@ -14,10 +17,10 @@
     "static/media/accelone.jpg": "/static/media/accelone.e9ad87d229102fce978e.jpg",
     "index.html": "/index.html",
     "main.5fc5002c.css.map": "/static/css/main.5fc5002c.css.map",
-    "main.9b40fee3.js.map": "/static/js/main.9b40fee3.js.map"
+    "main.c2131698.js.map": "/static/js/main.c2131698.js.map"
   },
   "entrypoints": [
     "static/css/main.5fc5002c.css",
-    "static/js/main.9b40fee3.js"
+    "static/js/main.c2131698.js"
   ]
 }
