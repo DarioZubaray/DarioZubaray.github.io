@@ -4,9 +4,31 @@ import ReactRotatingText from 'react-rotating-text';
 import '../ui/introduceCard.css';
 
 import { biography, linkedinUrl } from '../../data/biography';
-import pixelartProfile from '../../static/pixelart-profile.png';
+import nomalProfile from '../../static/circle-cropped.png';
+import pixelartProfile from '../../static/cropped_circle_pixelart.png';
+import cartoonProfile from '../../static/cropped_circle_cartoon.png';
+import mspaintProfile from '../../static/cropped_circle_ms-paint.png';
+
+const profiles = [
+  { type: nomalProfile, weight: 1 },
+  { type: pixelartProfile, weight: 60 },
+  { type: cartoonProfile, weight: 30 },
+  { type: mspaintProfile, weight: 9 }
+];
+
+function getRandomProfile(profiles) {
+  const totalWeight = profiles.reduce((sum, p) => sum + p.weight, 0);
+  let random = Math.random() * totalWeight;
+
+  for (const p of profiles) {
+    if (random < p.weight) return p.type;
+    random -= p.weight;
+  }
+}
 
 export const IntroduceCard = () => {
+    const profileImage = getRandomProfile(profiles);
+
     return (
         <header className="row">
             <div className="col-md-12">
@@ -14,7 +36,7 @@ export const IntroduceCard = () => {
                     <div className="row">
                         <div className="col-md-4">
                             <img
-                                src={pixelartProfile}
+                                src={profileImage}
                                 alt="selfie of the author"
                                 className="img-fluid"
                                 width={500}
