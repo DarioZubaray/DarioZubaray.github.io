@@ -10,10 +10,10 @@ import cartoonProfile from '../../static/cropped_circle_cartoon.png';
 import mspaintProfile from '../../static/cropped_circle_ms-paint.png';
 
 const profiles = [
-  { type: nomalProfile, weight: 1 },
-  { type: pixelartProfile, weight: 60 },
-  { type: cartoonProfile, weight: 30 },
-  { type: mspaintProfile, weight: 9 }
+  { type: nomalProfile, weight: 60 },
+  { type: pixelartProfile, weight: 25 },
+  { type: cartoonProfile, weight: 10 },
+  { type: mspaintProfile, weight: 5 }
 ];
 
 function getRandomProfile(profiles) {
