@@ -66,18 +66,25 @@ export const ExperienceCard = () => {
                             <hr />
 
                             <div>
-                                <h6>
-                                    <small>
-                                        <span role="img" aria-label="description">📜</span>
-                                    </small>
-                                   <span> Description:</span>
-                                </h6>
+                                <h6 style={{ fontWeight: 'bold', fontStyle: 'italic', textDecoration: 'underline', marginTop: '10px' }}>Description:</h6>
                                 <br/>
-                                { 
-                                    exp.description.map((desc, index) => (
-                                        <p style={{ textIndent: 10 }} key={ 'description-' + index }>{desc}</p>
-                                    ))
-                                }
+                                <div>
+                                {/* Resumen */}
+                                <p style={{ textIndent: 10 }}>{exp.summary}</p>
+                                
+                                {/* Sección Responsabilidades */}
+                                <h6 style={{ fontWeight: 'bold', fontStyle: 'italic', textDecoration: 'underline', marginTop: '10px' }}>Responsibilities:</h6>
+                                <ul style={{ paddingLeft: '20px' }}>
+                                    {exp.responsibilities.map((resp, index) => (
+                                    <li key={'resp-' + index}>{resp}</li>
+                                    ))}
+                                </ul>
+
+                                {/* Sección Tech Stack */}
+                                <p style={{ marginTop: '10px' }}>
+                                    <strong style={{ fontStyle: 'italic', textDecoration: 'underline' }}>Tech Stack:</strong> {exp.techStack}
+                                </p>
+                                </div>
                             </div>
                         </li>
                     ))
