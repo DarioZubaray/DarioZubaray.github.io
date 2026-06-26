@@ -3,9 +3,7 @@ export const experiences = [
       company: "Botmaker",
       title: "Software Engineer",
       description: [
-          "Developed and maintained high-throughput backend services using",
-          "JavaScript, TypeScript, and NestJS for a conversational AI platform processing",
-          "millions of daily chatbot requests. Collaboration within agile multidisciplinary teams.",
+          "Developed and maintained high-throughput backend services using JavaScript, TypeScript, and NestJS for a conversational AI platform processing millions of daily chatbot requests. Collaboration within agile multidisciplinary teams.",
           "",
           "Responsibilities:",
           "Development of REST APIs and backend services.",

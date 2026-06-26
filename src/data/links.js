@@ -19,4 +19,14 @@ export const publicProfile = [
         emoji: '💻',
         nombre: 'Github'
     },
+    {
+        url: 'https://drive.google.com/file/d/1XCrUatIwcROt_Qz9fFzvpTUi5N8BFODd/view?usp=sharing',
+        emoji: '📄',
+        nombre: 'CV one page'
+    },
+    {
+        url: 'https://drive.google.com/file/d/1ebJU3xhFCeQDARJeMDd0x--vyFlzzTK2/view?usp=sharing',
+        emoji: '📜',
+        nombre: 'Full CV'
+    }
 ]
