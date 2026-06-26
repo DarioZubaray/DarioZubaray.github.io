@@ -1,14 +1,6 @@
 export const skills = [
     {
-      skill: "Java",
-      percentage: 100,
-    },
-    {
       skill: "Javascript",
-      percentage: 100,
-    },
-    {
-      skill: "Node",
       percentage: 100,
     },
     {
@@ -16,31 +8,39 @@ export const skills = [
       percentage: 100,
     },
     {
-      skill: "React Js",
-      percentage: 90,
+      skill: "NodeJs",
+      percentage: 100,
     },
     {
-      skill: "Angular",
+      skill: "ExpressJs",
+      percentage: 100,
+    },
+    {
+      skill: "NestJs",
+      percentage: 99,
+    },
+    {
+      skill: "React Js",
       percentage: 95,
     },
     {
-      skill: "Vue Js",
-      percentage: 92,
+      skill: "React Hooks",
+      percentage: 90,
     },
     {
       skill: "React Native",
       percentage: 80,
     },
     {
-      skill: "Android",
+      skill: "GDScript",
       percentage: 85,
     },
     {
-      skill: "Kotlin",
+      skill: "N8N",
       percentage: 80,
     },
     {
-      skill: "Flutter",
+      skill: "LangChain",
       percentage: 85,
     },
     {

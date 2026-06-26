@@ -1,13 +1,19 @@
 export const experiences = [
     {
       company: "Botmaker",
-      title: "Fullstack developer, Java & Javascript + Typescript",
+      title: "Software Engineer",
       description: [
-          "Designing algorithms and flowcharts, producing clean and efficient code based on specifications. ",
-          "Integrating software components with third-party programs, verifying and deploying programs and systems. ",
-          "Troubleshooting, debugging, and updating existing software. ",
-          "Gathering and evaluating user feedback, providing recommendations, and implementing improvements. ",
-          "Creating technical documentation for reference and reporting. ",
+          "Developed and maintained high-throughput backend services using",
+          "JavaScript, TypeScript, and NestJS for a conversational AI platform processing",
+          "millions of daily chatbot requests. Collaboration within agile multidisciplinary teams.",
+          "",
+          "Responsibilities:",
+          "Development of REST APIs and backend services.",
+          "Implementation of new product features.",
+          "Bug fixing and maintenance of existing solutions.",
+          "Collaboration with frontend and product teams.",
+          "",
+          "Tech Stack: Javascript, Typescript, Node.js, Nestjs, REST APIs, Git, GCP"
       ],
       from: {
         month: 7,
@@ -15,8 +21,8 @@ export const experiences = [
         year: 2024
       },
       to: {
-        month: 4,
-        monthName: 'April',
+        month: 7,
+        monthName: 'July',
         year: 2026
       },
       language: 'Spanish',
@@ -25,10 +31,18 @@ export const experiences = [
     },
     {
       company: "Accenture",
-      title: "Java developer",
+      title: "Software Engineer",
       description: [
-          "Backend Development on AWS: Designed, implemented and maintained backend services using Java on AWS.",
-          "This covered the creation of endpoints in API Gateway to handle HTTP requests, integration with DynamoDB, S3, Lambdas, pipelines and steps Functions."
+          "Engineered cloud-native backend services on AWS (API Gateway, Lambda, Step Functions) to power a mobile dashboard application for the world's leading automotive manufacturer. ",
+          "",
+          "Responsibilities:",
+          "Designed and implemented REST APIs using Nodejs.",
+          "Created and maintained API Gateway endpoints.",
+          "Integrated services with DynamoDB, S3 and AWS Lambda.",
+          "Developed workflows using Step Functions.",
+          "Participated in CI/CD pipelines and deployment processes.",
+          "",
+          "Tech Stack: Javascript, Typescript, Nodejs, AWS Lambda, API Gateway, DynamoDB, S3, Step Functions."
       ],
       from: {
         month: 4,
@@ -36,8 +50,8 @@ export const experiences = [
         year: 2023
       },
       to: {
-        month: 1,
-        monthName: 'January',
+        month: 7,
+        monthName: 'July',
         year: 2024
       },
       language: 'Spanish, English',
@@ -46,10 +60,18 @@ export const experiences = [
     },
     {
       company: "Number 8",
-      title: "Senior Software Engineer",
+      title: "Software Engineer",
       description: [
-          "Full stack development with Java and React. Microservices with Java 1.8 built with spring boot and gradle. Lombok. Unit tests based on groovy’s spock framework. Running on docker containers. ",
-          "React 16.9 with hooks in typescript, react-router, REDUX, Forms based on Formik."
+          "Architected Node.js/NestJS microservices and React applications, spearheading the implementation of rigorous unit testing strategies with Jest to enhance codebase stability and predictability.",
+          "",
+          "Responsibilities:",
+          "",
+          "Developed backend microservices using Nodejs and Nestjs.",
+          "Implemented unit tests and maintained code quality standards.",
+          "Developed frontend features using React and TypeScript.",
+          "Containerized applications using Docker.",
+          "",
+          "Tech Stack: Javascript, Typescript, Nodejs, Expressjs, Nestjs, React, Redux, Docker"
       ],
       from: {
         month: 3,
@@ -57,29 +79,9 @@ export const experiences = [
         year: 2022
       },
       to: {
-        month: 8,
-        monthName: 'August',
-        year: 2022
-      },
-      language: 'English',
-      contract: 'Contractor',
-      location: 'Remote'
-    },
-    {
-      company: "AccelOne",
-      title: "Salesforces Developer",
-      description: [
-          "Salesforce backend developing using Apex language to trigger on difeferent events to automate the creation of third-party services such as meeting rooms and surveys"
-      ],
-      from: {
-        month: 9,
-        monthName: 'September',
-        year: 2021
-      },
-      to: {
-        month: 12,
-        monthName: 'December',
-        year: 2021
+        month: 4,
+        monthName: 'April',
+        year: 2023
       },
       language: 'English',
       contract: 'Contractor',
@@ -87,76 +89,49 @@ export const experiences = [
     },
     {
       company: "Globant",
-      title: "NodeJs Engineer Semisenior Advance",
+      title: "Software Engineer",
       description: [
-          "Developing cloud functions in AWS-steps using Node Js as programming language to retrieve a collection of data from different third parties APIs storing that data into Atlas mongo clusters"
+          "Developed cloud-native microservices and serverless solutions on AWS, contributing to an enterprise-grade FinTech application for a major banking and financial institution in the Caribbean.",
+          "",
+          "Responsibilities:",
+          "",
+          "Designed and developed Nodesj microservices using Nestjs.",
+          "Integrated applications with AWS services including DynamoDB, Cognito and CloudWatch. ",
+          "Deployed containerized workloads using Docker and Kubernetes",
+          "Developed Node.js serverless functions orchestrated with AWS Step Functions.",
+          "Consumed and consolidated data from multiple third-party APIs.",
+          "",
+          "Tech Stack: Javascript, Typescript, Node.js, Nestjs, AWS, DynamoDB, Cognito, CloudWatch, Docker, Kubernetes."
       ],
       from: {
-        month: 4,
-        monthName: 'April',
-        year: 2021
-      },
-      to: {
         month: 9,
         monthName: 'September',
         year: 2021
+      },
+      to: {
+        month: 3,
+        monthName: 'March',
+        year: 2022
       },
       language: 'Spanish, English',
       contract: 'Full-Time Employee',
       location: 'Remote'
     },
     {
-      company: "Globant",
-      title: "Java Engineer Semisenior Advance",
-      description: [
-          "Analysis, design, development, testing and documentation generation of java applications based on microservices built with spring boot projects and maven, spring modules like cloud-eureka-hystrix. No-sql database like dynamodb, integration with cognito, cloudwatch monitoring and codecommit as csm.",
-          "Running on docker containers, managed by kubernetes clusters on AWS platform. Agile framework based on scrum and 2 week sprint."
-      ],
-      from: {
-        month: 9,
-        monthName: 'September',
-        year: 2020
-      },
-      to: {
-        month: 4,
-        monthName: 'April',
-        year: 2021
-      },
-      language: 'Spanish',
-      contract: 'Full-Time Employee',
-      location: 'Remote'
-    },
-    {
       company: "Imagosur SA",
-      title: "System software developer Semisenior",
+      title: "Software Engineer",
       description: [
-          "Analysis, design, development, deploy, maintenance and support of different type of applications: web, desktop UI, desktop services, CLI, Rest API or mobile apps based on technologies like:",
-          "-Java 6-7-8: maven, spring (core-security-mvc-data-batch-boot), struts 2, hibernate criteria-queryDsl, Tiles, thymeleaf, Velocity, Swing, JavaFX, JBoss, WildFly, WebSphere, Tomcat.",
-          "-Javascript ES3-5-6: JQuery, JQuery Mobile, JQGrid, momentjs, Handlebars, Bootstrap, Typescript, Angular 5, Vuejs 2, ElectronJS",
-          "-Dotnet 4.7/core/compact 3.5: asp.net, Entity Framework, LINQ, Structure map, WPF, MahApps",
-
-          "DataBases used SqlServer, MySQL, Teradata, Informix, source code management with SVN & GIT, documentation generation with Swagger, continuous Integration using Jenkins jobs, sonarqube, nexus binary repositoy. Deployment on app-servers or docker's containers, monitoring in Test using JMeter, analysis of logs."
-      ],
-      from: {
-        month: 6,
-        monthName: 'June',
-        year: 2016
-      },
-      to: {
-        month: 9,
-        monthName: 'September',
-        year: 2020
-      },
-      language: 'Spanish',
-      contract: 'Full-Time Employee',
-      location: 'On Site'
-    },
-    {
-      company: "Tultix SRL",
-      title: "Java developer junior",
-      description: [
-          "Research, development and implementation of Java J2SE applications, design of CRUD operations with hibernate on databases such as MySql and SqlServer.",
-          "Use of libraries such as JavaMail, Apache Poi, Apache Fop. Java Web: JSF, PrimeFaces, PrimeFaces Mobile. Scraping with HtmlUnit, repetition of Tasks with Quartz Cron, code optimization and obfuscation with Proguard, code decompilation with Java Decompiler. Project versioning with SVN."
+          "Refactored critical data synchronization processes across 3 ecosystem applications, replacing naive string concatenation with efficient memory management (StringBuffer), which slashed daily processing time from 45 minutes down to just 5 minutes.",
+          "Full software development lifecycle participation in enterprise solutions, including analysis, development, maintenance, deployment and user support.",
+          "",
+          "Responsibilities:",
+          "Developed web, desktop and mobile applications.",
+          "Implemented backend services using Java and Spring technologies.",
+          "Designed and maintained integrations with relational databases.",
+          "Participated in deployment, monitoring and production support activities.",
+          "Worked directly with end users to resolve incidents and improve business processes.",
+          "",
+          "Tech Stack: Java, Spring, Hibernate, JavaFX, JavaScript, Vue.js, .NET, SQL Server, MySQL, Jenkins, Docker."
       ],
       from: {
         month: 3,
@@ -164,12 +139,12 @@ export const experiences = [
         year: 2016
       },
       to: {
-        month: 6,
-        monthName: 'June',
-        year: 2016
+        month: 9,
+        monthName: 'September',
+        year: 2020
       },
       language: 'Spanish',
       contract: 'Full-Time Employee',
       location: 'On Site'
-    },
+    }
 ];
