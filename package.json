@@ -17,7 +17,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "github-pages": "react-scripts build && rmdir /s /q docs && ren build docs",
+    "github-pages": "react-scripts build && node -e \"fs.rmSync('docs', {recursive:true, force:true}); fs.renameSync('build', 'docs')",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
