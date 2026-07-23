@@ -1,48 +1,48 @@
-# Hola, soy Dario Zubaray 👋 
+# Hi, I'm Dario Zubaray 👋 
 
-### Full Stack Developer | Java & Node.js Expert | Software Crafter
+### Full Stack Developer | Javascript/Node.js & Typescript Expert | Software Crafter
 
-Soy un desarrollador con más de 10 años de experiencia transformando problemas complejos en aplicaciones escalables y fáciles de mantener. Mi enfoque combina la robustez de **Typescript** con la agilidad de **Node.js y React**, siempre bajo la premisa del **Software Craftsmanship**: escribir código que no solo funcione, sino que sea un placer leer.
-
----
-
-## Me define en pocas líneas:
-
-- **Seniority Multidisciplinario:** 10 años en ecosistemas con Node.js, Typescript y React.
-- **Arquitectura de Impacto:** Experiencia real optimizando procesos críticos (reducción de tiempos de ejecución del 88% en sistemas de datos).
-- **IA & Automatización:** Implementación de soluciones modernas que integran extracción de datos con IA y flujos conversacionales (WhatsApp Bots).
-- **Mentalidad Cloud-Native:** Experiencia operativa en entornos AWS y Google Cloud Platform.
+I am a developer with over 10 years of experience turning complex problems into scalable, easily maintainable applications. My approach combines the robustness of **Typescript** with the agility of **Node.js and React**, always guided by **Software Craftsmanship**: writing code that doesn't just work, but is a pleasure to read.
 
 ---
 
-## Stack Tecnológico:
+## In a nutshell:
+
+- **Multidisciplinary Seniority:** 10 years in ecosystems with Node.js, Typescript, and React.
+- **High-Impact Architecture:** Hands-on experience optimizing critical processes (reducing execution times by 88% in data systems).
+- **AI & Automation:** Implementation of modern solutions integrating AI data extraction and conversational flows (WhatsApp Bots).
+- **Cloud-Native Mindset:** Operational experience in AWS and Google Cloud Platform environments.
+
+---
+
+## Tech Stack:
 
 | Backend | Frontend | Infra & Data |
 | :--- | :--- | :--- |
 | **Node.js** (TypeScript, Expressjs, Nestjs) | **React.js** (Hooks, Redux, Context) | **AWS** (Lambda, DynamoDB, S3) |
-| **Arquitectura:** Microservicios, Hexagonal | **Testing:** Mocha, Jest, Jasmine, Puppeteer | **BBDD:** PostgreSQL, MongoDB, Redis |
+| **Architecture:** Microservices, Hexagonal | **Testing:** Mocha, Jest, Jasmine, Puppeteer | **Databases:** PostgreSQL, MongoDB, Redis |
 
 ---
 
-## Proyectos Destacados:
+## Featured Projects:
 
-### Pase Vehicular Inteligente
-**Desafío:** Digitalizar la validación de documentos para un gobierno provincial.
-- **Solución:** Bot de WhatsApp que utiliza **IA/OCR** para extraer datos de DNI y Cédulas, generando un pase seguro con **QR**.
+### Smart Vehicle Pass
+**Challenge:** Digitalize document validation for a provincial government.
+- **Solution:** A WhatsApp bot using **AI/OCR** to extract data from IDs and vehicle registration cards, generating a secure pass with a **QR** code.
 
-### Optimización de Motor de Datos
-- Logré reducir un proceso de sincronización de **45 minutos a solo 5 minutos** mediante el análisis de gestión de memoria y refactorización de manejo de Strings.
-
----
-
-## Filosofía de Trabajo
-> "Cualquier tonto puede escribir código que una computadora entienda. Los buenos programadores escriben código que los humanos entiendan. Martin Fowler."
-
-Me apasiona la **estandarización**, el **Clean Code** y la formación de equipos donde la calidad no se negocia. Si buscas un desarrollador que se preocupe por la tabulación tanto como por la escalabilidad, hablemos.
+### Data Engine Optimization
+- Successfully reduced a synchronization process from **45 minutes to just 5 minutes** by analyzing memory management and refactoring String handling.
 
 ---
 
-## Contacto
-- **Ubicación:** [Buenos Aires Metropolitan Area](https://www.google.com/maps/place/Buenos+Aires+Metropolitan+Area/@-34.5046464,-58.7839553,10z/data=!3m1!4b1!4m6!3m5!1s0x95bcb3faddba8be7:0x93e8f54e16d05cc5!8m2!3d-34.5733392!4d-58.6458369!16zL20vMDMzODdr) Disponible para Remoto / Híbrido.
+## Work Philosophy
+> "Any fool can write code that a computer can understand. Good programmers write code that humans can understand. – Martin Fowler"
+
+I am passionate about **standardization**, **Clean Code**, and building teams where quality is non-negotiable. If you're looking for a developer who cares about indentation as much as scalability, let's talk.
+
+---
+
+## Contact
+- **Location:** [Buenos Aires Metropolitan Area](https://www.google.com/maps/place/Buenos+Aires+Metropolitan+Area/@-34.5046464,-58.7839553,10z/data=!3m1!4b1!4m6!3m5!1s0x95bcb3faddba8be7:0x93e8f54e16d05cc5!8m2!3d-34.5733392!4d-58.6458369!16zL20vMDMzODdr) Available for Remote / Hybrid.
 - **LinkedIn:** [linkedin.com/in/dario-jose-zubaray](https://www.linkedin.com/in/dario-jose-zubaray)
 - **Portfolio:** [darioZubaray.github.io](https://darioZubaray.github.io)
