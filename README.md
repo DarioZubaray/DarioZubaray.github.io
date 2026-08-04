@@ -43,6 +43,6 @@ I am passionate about **standardization**, **Clean Code**, and building teams wh
 ---
 
 ## Contact
-- **Location:** [Buenos Aires Metropolitan Area](https://www.google.com/maps/place/Buenos+Aires+Metropolitan+Area/@-34.5046464,-58.7839553,10z/data=!3m1!4b1!4m6!3m5!1s0x95bcb3faddba8be7:0x93e8f54e16d05cc5!8m2!3d-34.5733392!4d-58.6458369!16zL20vMDMzODdr) Available for Remote / Hybrid.
+- **Location:** [Buenos Aires Metropolitan Area](https://www.google.com/maps/place/Buenos+Aires+Metropolitan+Area/@-34.5046464,-58.7839553,10z/data=!3m1!4b1!4m6!3m5!1s0x95bcb3faddba8be7:0x93e8f54e16d05cc5!8m2!3d-34.5733392!4d-58.6458369!16zL20vMDMzODdr)
 - **LinkedIn:** [linkedin.com/in/dario-jose-zubaray](https://www.linkedin.com/in/dario-jose-zubaray)
 - **Portfolio:** [darioZubaray.github.io](https://darioZubaray.github.io)
