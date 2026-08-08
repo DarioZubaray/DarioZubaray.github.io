@@ -10,6 +10,7 @@ import udemy from '../../static/udemy.jpg';
 import udemy2021 from '../../static/udemy-2021-plus.jpg';
 import devtalles from '../../static/devtalles.jpg';
 import uai from '../../static/uai.png';
+import bigSchool from '../../static/big-school.png';
 
 export const CourseTimeline = ({ course }) => {
 
@@ -29,6 +30,8 @@ export const CourseTimeline = ({ course }) => {
                 return devtalles;
             case 'uai':
                 return uai;
+            case 'big-school':
+                return bigSchool;
             default:
                 return;
         }
