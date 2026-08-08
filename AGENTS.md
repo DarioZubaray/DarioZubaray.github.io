@@ -9,7 +9,7 @@ Personal portfolio website (React / Create React App) deployed to GitHub Pages.
 - `npm start` — dev server
 - `npm run build` — production build to `build/`
 - `npm run github-pages` — builds and copies output into `docs/` for GitHub Pages (Windows-only script: uses `rmdir` and `ren`)
-- `npm test` — runs react-scripts test (Jest). No test files exist currently.
+- `npm test` — runs react-scripts test (Jest) in watch mode. Pass `-- --watchAll=false` to run once.
 
 ## Deployment
 
@@ -26,6 +26,6 @@ GitHub Pages serves from the `docs/` folder (not `build/`). After local changes,
 
 ## Gotchas
 
-- Service worker is registered by default (`src/serviceWorkerRegistration.js`).
+- Service worker is registered by default (`src/serviceWorkerRegistration.js`), called from `src/index.js:11`. It provides offline caching in production. To disable: replace `serviceWorkerRegistration.register()` with `serviceWorkerRegistration.unregister()` in `src/index.js`.
 - No TypeScript, no linting config beyond the `react-app` eslint preset in `package.json`.
-- No existing tests or test infrastructure beyond what CRA provides out of the box.
+- Existing tests (19 files) in `src/data/`, `src/components/ui/`, `src/components/shared/`, and `src/services/`. Uses `@testing-library/react` and `@testing-library/jest-dom`.
