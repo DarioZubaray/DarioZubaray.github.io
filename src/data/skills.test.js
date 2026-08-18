@@ -9,9 +9,10 @@ describe('skills', () => {
     expect(skills).toHaveLength(12);
   });
 
-  it('each skill should have a name and percentage', () => {
+  it('each skill should have a skillKey and percentage', () => {
     skills.forEach(item => {
-      expect(typeof item.skill).toBe('string');
+      expect(typeof item.skillKey).toBe('string');
+      expect(item.skillKey).toMatch(/^skills\./);
       expect(typeof item.percentage).toBe('number');
     });
   });
@@ -23,10 +24,10 @@ describe('skills', () => {
     });
   });
 
-  it('should include known skills', () => {
-    const names = skills.map(s => s.skill);
-    expect(names).toContain('Javascript');
-    expect(names).toContain('React Js');
-    expect(names).toContain('Copy Pasting');
+  it('should include known skill keys', () => {
+    const keys = skills.map(s => s.skillKey);
+    expect(keys).toContain('skills.javascript');
+    expect(keys).toContain('skills.reactJs');
+    expect(keys).toContain('skills.copyPasting');
   });
 });

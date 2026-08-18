@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import { Portfolio } from './Portfolio';
+import './i18n';
 
 ReactDOM.render(
   <Portfolio />,

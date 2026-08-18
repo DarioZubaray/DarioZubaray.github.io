@@ -1,32 +1,33 @@
 import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { screen } from '@testing-library/react';
 import { ExperienceDescriptionHeader, ExperienceDescriptionBody } from './ExperienceDescription';
+import { renderWithProviders } from '../../test-utils';
 
 const mockExp = {
-  company: 'Test Company',
-  title: 'Software Engineer',
-  from: { month: 3, monthName: 'March', year: 2022 },
-  to: { month: 6, monthName: 'June', year: 2023 },
-  language: 'English',
-  location: 'Remote',
-  contract: 'Full-Time Employee',
+  companyKey: 'experience.companies.botmaker',
+  titleKey: 'experience.titles.softwareEngineer',
+  from: { month: 3, monthNameKey: 'experience.months.march', year: 2022 },
+  to: { month: 6, monthNameKey: 'experience.months.june', year: 2023 },
+  languageKey: 'experience.languages.english',
+  locationKey: 'experience.locations.remote',
+  contractKey: 'experience.contracts.fullTime',
 };
 
 describe('ExperienceDescriptionHeader', () => {
   it('should render company name', () => {
-    render(<ExperienceDescriptionHeader exp={mockExp} />);
-    expect(screen.getByText('Test Company')).toBeInTheDocument();
+    renderWithProviders(<ExperienceDescriptionHeader exp={mockExp} />);
+    expect(screen.getByText('Botmaker')).toBeInTheDocument();
   });
 
   it('should render job title', () => {
-    render(<ExperienceDescriptionHeader exp={mockExp} />);
+    renderWithProviders(<ExperienceDescriptionHeader exp={mockExp} />);
     expect(screen.getByText('Software Engineer')).toBeInTheDocument();
   });
 });
 
 describe('ExperienceDescriptionBody', () => {
   it('should render date range', () => {
-    render(<ExperienceDescriptionBody exp={mockExp} />);
+    renderWithProviders(<ExperienceDescriptionBody exp={mockExp} />);
     expect(screen.getByText('March')).toBeInTheDocument();
     expect(screen.getByText('June')).toBeInTheDocument();
     expect(screen.getByText(/2022/)).toBeInTheDocument();
@@ -34,17 +35,17 @@ describe('ExperienceDescriptionBody', () => {
   });
 
   it('should render language', () => {
-    render(<ExperienceDescriptionBody exp={mockExp} />);
+    renderWithProviders(<ExperienceDescriptionBody exp={mockExp} />);
     expect(screen.getByText('English')).toBeInTheDocument();
   });
 
   it('should render location', () => {
-    render(<ExperienceDescriptionBody exp={mockExp} />);
+    renderWithProviders(<ExperienceDescriptionBody exp={mockExp} />);
     expect(screen.getByText('Remote')).toBeInTheDocument();
   });
 
   it('should render contract type', () => {
-    render(<ExperienceDescriptionBody exp={mockExp} />);
+    renderWithProviders(<ExperienceDescriptionBody exp={mockExp} />);
     expect(screen.getByText('Full-Time Employee')).toBeInTheDocument();
   });
 });

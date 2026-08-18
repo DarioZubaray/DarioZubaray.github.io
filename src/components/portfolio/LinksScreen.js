@@ -1,7 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { publicProfile } from '../../data/links';
 
 export const LinksScreen = () => {
+    const { t } = useTranslation();
 
     const copyURLToClipboard = (url) => {
         navigator.clipboard.writeText(url);
@@ -11,7 +13,7 @@ export const LinksScreen = () => {
         <div className="container row mb-3 animate__animated animate__fadeIn">
             <div className="card" style={{ flex: 1 }}>
                 <div className='card-body'>
-                    <h1 className='mb-3'>Links to my public profiles</h1>
+                    <h1 className='mb-3'>{t('links.title')}</h1>
 
                     <ul className="list-group">
                         {

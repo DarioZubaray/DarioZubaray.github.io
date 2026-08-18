@@ -1,4 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react'
+import { useTranslation } from 'react-i18next';
 import { TicTacToeButton } from './TicTacToeButton'
 import './TicTacToeBoard.css'
 
@@ -14,10 +15,11 @@ const lines = [
 ];
 
 export const TicTacToeBoard = () => {
+  const { t } = useTranslation();
 
   const [ squares, setSquares ] = useState( Array(9).fill(null) )
   const [ xIsNext, setXIsNext ] = useState( true )
-  const [ status, setStatus ] = useState( 'Next player: X' )
+  const [ status, setStatus ] = useState( t('tictactoe.nextPlayer', { player: 'X' }) )
   const [ winnerCombination, setWinnerCombination ] = useState( [] )
   const [ gameOver, setGameOver ] = useState( false )
 
@@ -66,17 +68,17 @@ export const TicTacToeBoard = () => {
   const calculateGameStatus = useCallback((winner) => {
     let currentStatus = '';
     if (winner) {
-      currentStatus = 'Winner: ' + winner;
+      currentStatus = t('tictactoe.winner', { player: winner });
     } else if (gameOver) {
-      currentStatus = 'Tied: No more moves!';
+      currentStatus = t('tictactoe.tied');
     } else {
-      currentStatus = 'Next player: ' + (xIsNext ? 'X' : 'O');
+      currentStatus = t('tictactoe.nextPlayer', { player: xIsNext ? 'X' : 'O' });
     }
   
     if (status !== currentStatus) {
       setStatus(currentStatus);
     }
-  }, [gameOver, xIsNext, status, setStatus]);
+  }, [gameOver, xIsNext, status, setStatus, t]);
  
 
   useEffect(() => {
@@ -88,7 +90,7 @@ export const TicTacToeBoard = () => {
   const reset = () => {
     setSquares(Array(9).fill(null))
     setXIsNext(true)
-    setStatus('Next player: X')
+    setStatus(t('tictactoe.nextPlayer', { player: 'X' }))
     setWinnerCombination([])
     setGameOver(false)
   }
@@ -115,7 +117,7 @@ export const TicTacToeBoard = () => {
           </div>
 
         <div className="text-center">
-          <button className='btn btn-secondary my-3' onClick={ reset }>New Game</button>
+          <button className='btn btn-secondary my-3' onClick={ reset }>{t('tictactoe.newGame')}</button>
         </div>
       </div>
   )

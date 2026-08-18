@@ -1,0 +1,227 @@
+{
+  "nav": {
+    "home": "Home",
+    "studies": "Studies",
+    "blog": "Blog",
+    "links": "Links",
+    "demo": "Demo",
+    "github": "Github"
+  },
+  "footer": {
+    "copyright": "© Dario Zubaray Portfolio",
+    "years": "2014 - {{year}}"
+  },
+  "home": {
+    "greeting": "Hi, I'm Dario Zubaray",
+    "roles": {
+      "softwareEngineer": "Software Engineer",
+      "developer": "Developer",
+      "programmer": "Programmer",
+      "coder": "Coder"
+    },
+    "linkedin": "Add me on LinkedIn",
+    "skills": "Skills",
+    "experience": "Experience",
+    "description": "Description:",
+    "responsibilities": "Responsibilities:",
+    "techStack": "Tech Stack:"
+  },
+  "studies": {
+    "loading": "Loading...",
+    "courses": "Courses",
+    "duration": "duration: {{n}} hs",
+    "checkItOut": "check it out!",
+    "filter": "Filter:",
+    "sortedBy": "Sorted by:",
+    "olderFirst": "Older first",
+    "newestFirst": "Newest first",
+    "all": "all",
+    "java": "java",
+    "spring": "spring",
+    "angular": "angular",
+    "react": "react",
+    "vue": "vue",
+    "others": "others",
+    "spanish": "spanish",
+    "english": "english",
+    "devtalles": "devtalles"
+  },
+  "blog": {
+    "read": "Read"
+  },
+  "links": {
+    "title": "Links to my public profiles"
+  },
+  "demo": {
+    "links": "Links",
+    "binaryConversor": "Binary Conversor",
+    "typeMatchQuiz": "Type match Quiz",
+    "operations": "Operations",
+    "calculator": "Calculator",
+    "tictactoe": "TicTacToe"
+  },
+  "conversor": {
+    "title": "Numeric Conversor",
+    "decimal": "Decimal",
+    "decimalPlaceholder": "Enter a decimal number",
+    "decimalHelp": "Input a regular number in base ten.",
+    "binary": "Binary",
+    "binaryPlaceholder": "Binary",
+    "octal": "Octal",
+    "octalPlaceholder": "Octal",
+    "hexadecimal": "Hexadecimal",
+    "hexadecimalPlaceholder": "Hexadecimal",
+    "back": "⬅ Back",
+    "clear": "🗑️ Clear"
+  },
+  "tictactoe": {
+    "nextPlayer": "Next player: {{player}}",
+    "winner": "Winner: {{player}}",
+    "tied": "Tied: No more moves!",
+    "newGame": "New Game"
+  },
+  "github": {
+    "noDescription": "No description",
+    "noLanguage": "No language",
+    "myBlog": "My blog",
+    "goToGithub": "Go to github"
+  },
+  "error": {
+    "couldNotLoad": "Could not load my page",
+    "couldNotGet": "Could not get this page"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "toggle": "Theme toggle"
+  },
+  "experience": {
+    "actually": "Actually",
+    "companies": {
+      "botmaker": "Botmaker",
+      "accenture": "Accenture",
+      "number8": "Number 8",
+      "globant": "Globant",
+      "imagosur": "Imagosur SA"
+    },
+    "titles": {
+      "softwareEngineer": "Software Engineer"
+    },
+    "contracts": {
+      "fullTime": "Full-Time Employee",
+      "contractor": "Contractor"
+    },
+    "locations": {
+      "remote": "Remote",
+      "onSite": "On Site"
+    },
+    "languages": {
+      "spanish": "Spanish",
+      "english": "English",
+      "both": "Spanish, English"
+    },
+    "months": {
+      "january": "January",
+      "february": "February",
+      "march": "March",
+      "april": "April",
+      "may": "May",
+      "june": "June",
+      "july": "July",
+      "august": "August",
+      "september": "September",
+      "october": "October",
+      "november": "November",
+      "december": "December"
+    },
+    "botmaker": {
+      "summary": [
+        "Developed and maintained high-throughput backend services using JavaScript, TypeScript, and NestJS for a conversational AI platform processing millions of daily chatbot requests. Collaboration within agile multidisciplinary teams."
+      ],
+      "resp": [
+        "Development of REST APIs and backend services.",
+        "Implementation of new product features.",
+        "Bug fixing and maintenance of existing solutions.",
+        "Collaboration with frontend and product teams."
+      ],
+      "techStack": "Javascript, Typescript, Node.js, Nestjs, REST APIs, Git, GCP"
+    },
+    "accenture": {
+      "summary": [
+        "Engineered cloud-native backend services on AWS (API Gateway, Lambda, Step Functions) to power a mobile dashboard application for the world's leading automotive manufacturer."
+      ],
+      "resp": [
+        "Designed and implemented REST APIs using Nodejs.",
+        "Created and maintained API Gateway endpoints.",
+        "Integrated services with DynamoDB, S3 and AWS Lambda.",
+        "Developed workflows using Step Functions.",
+        "Participated in CI/CD pipelines and deployment processes."
+      ],
+      "techStack": "Javascript, Typescript, Nodejs, AWS Lambda, API Gateway, DynamoDB, S3, Step Functions."
+    },
+    "number8": {
+      "summary": [
+        "Architected Node.js/NestJS microservices and React applications, spearheading the implementation of rigorous unit testing strategies with Jest to enhance codebase stability and predictability."
+      ],
+      "resp": [
+        "Developed backend microservices using Nodejs and Nestjs.",
+        "Implemented unit tests and maintained code quality standards.",
+        "Developed frontend features using React and TypeScript.",
+        "Containerized applications using Docker."
+      ],
+      "techStack": "Javascript, Typescript, Nodejs, Expressjs, Nestjs, React, Redux, Docker"
+    },
+    "globant": {
+      "summary": [
+        "Developed cloud-native microservices and serverless solutions on AWS, contributing to an enterprise-grade FinTech application for a major banking and financial institution in the Caribbean."
+      ],
+      "resp": [
+        "Designed and developed Nodesj microservices using Nestjs.",
+        "Integrated applications with AWS services including DynamoDB, Cognito and CloudWatch.",
+        "Deployed containerized workloads using Docker and Kubernetes.",
+        "Developed Node.js serverless functions orchestrated with AWS Step Functions.",
+        "Consumed and consolidated data from multiple third-party APIs."
+      ],
+      "techStack": "Javascript, Typescript, Node.js, Nestjs, AWS, DynamoDB, Cognito, CloudWatch, Docker, Kubernetes."
+    },
+    "imagosur": {
+      "summary": [
+        "Refactored critical data synchronization processes across 3 ecosystem applications, replacing naive string concatenation with efficient memory management (StringBuffer), which slashed daily processing time from 45 minutes down to just 5 minutes.",
+        "Full software development lifecycle participation in enterprise solutions, including analysis, development, maintenance, deployment and user support."
+      ],
+      "resp": [
+        "Developed web, desktop and mobile applications.",
+        "Implemented backend services using Java and Spring technologies.",
+        "Designed and maintained integrations with relational databases.",
+        "Participated in deployment, monitoring and production support activities.",
+        "Worked directly with end users to resolve incidents and improve business processes."
+      ],
+      "techStack": "Java, Spring, Hibernate, JavaFX, JavaScript, Vue.js, .NET, SQL Server, MySQL, Jenkins, Docker."
+    }
+  },
+  "biography": {
+    "age": "I'm AGE years old ♑ 🐉",
+    "father": "a father 👨‍👧, a bit of a gamer 🎮",
+    "piano": "a piano enthusiast 🎹",
+    "training": "constantly training 🏋️‍♂️",
+    "reader": "a curious reader 📖",
+    "fromArgentina": "from Argentina 🔵⚪🔵",
+    "f1": "a big Formula 1 fan 🏎",
+    "mate": "and a mate lover 🧉"
+  },
+  "skills": {
+    "javascript": "Javascript",
+    "typescript": "Typescript",
+    "nodejs": "NodeJs",
+    "expressjs": "ExpressJs",
+    "nestjs": "NestJs",
+    "reactJs": "React Js",
+    "reactHooks": "React Hooks",
+    "reactNative": "React Native",
+    "gdscript": "GDScript",
+    "n8n": "N8N",
+    "langchain": "LangChain",
+    "copyPasting": "Copy Pasting"
+  }
+}

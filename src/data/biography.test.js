@@ -1,19 +1,20 @@
-import { biography, linkedinUrl } from './biography';
+import { biographyKeys, linkedinUrl } from './biography';
 
-describe('biography', () => {
-  it('should be an array of strings', () => {
-    expect(Array.isArray(biography)).toBe(true);
-    biography.forEach(item => {
+describe('biographyKeys', () => {
+  it('should be an array of translation keys', () => {
+    expect(Array.isArray(biographyKeys)).toBe(true);
+    biographyKeys.forEach(item => {
       expect(typeof item).toBe('string');
+      expect(item).toMatch(/^biography\./);
     });
   });
 
   it('should have 8 entries', () => {
-    expect(biography).toHaveLength(8);
+    expect(biographyKeys).toHaveLength(8);
   });
 
-  it('should contain AGE placeholder in first entry', () => {
-    expect(biography[0]).toContain('AGE');
+  it('should contain age key as first entry', () => {
+    expect(biographyKeys[0]).toBe('biography.age');
   });
 });
 

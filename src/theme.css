@@ -40,10 +40,10 @@ html.light {
 
 /* ===== Dark Theme ===== */
 html.dark {
-  --bg-body-1: #1a1a2e;
-  --bg-body-2: #16213e;
-  --bg-body-3: #0f3460;
-  --bg-body-4: #1a1a3e;
+  --bg-body-1: #5c2d1e;
+  --bg-body-2: #6b1d3d;
+  --bg-body-3: #0e3d5c;
+  --bg-body-4: #0d5c4a;
 
   --bg-card: rgba(30, 30, 50, 0.9);
   --bg-card-solid: #1e1e32;

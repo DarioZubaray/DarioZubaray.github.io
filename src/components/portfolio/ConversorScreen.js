@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 export const ConversorScreen = () => {
+  const { t } = useTranslation();
   const [ numbers, setNumber ] = useState({
     decimal: 0,
     binary: 0,
@@ -63,52 +65,52 @@ export const ConversorScreen = () => {
     <div className='card'>
       <div className='card-body'>
 
-        <h3>Numeric Conversor</h3>
+        <h3>{t('conversor.title')}</h3>
         <hr/>
 
         <div className="form-group">
 
-          <label htmlFor="decimalInput">Decimal</label>
+          <label htmlFor="decimalInput">{t('conversor.decimal')}</label>
           <input type="number"
                  onChange={ onChangeHandleDecimal }
                  value={ numbers.decimal }
                  className="form-control"
                  id="decimalInput"
                  aria-describedby="decimalHelp"
-                 placeholder="Enter a decimal number"
+                  placeholder={t('conversor.decimalPlaceholder')}
           />
-          <small id="decimalHelp" className="form-text text-muted">Input a regular number in base ten.</small>
+          <small id="decimalHelp" className="form-text text-muted">{t('conversor.decimalHelp')}</small>
         </div>
         <hr/>
 
         <div className="form-group">
-          <label htmlFor="binaryOutput">Binary</label>
+          <label htmlFor="binaryOutput">{t('conversor.binary')}</label>
           <input type="number"
                  className="form-control"
                  id="binaryOutput"
-                 placeholder="Binary" 
+                  placeholder={t('conversor.binaryPlaceholder')}
                  value={numbers.binary}
                  onChange={onChangeHandleBinary}
           />
         </div>
 
         <div className="form-group">
-          <label htmlFor="octalOutput">Octal</label>
+          <label htmlFor="octalOutput">{t('conversor.octal')}</label>
           <input type="number"
                  className="form-control"
                  id="octalOutput"
-                 placeholder="Octal"
+                  placeholder={t('conversor.octalPlaceholder')}
                  value={numbers.octal}
                  onChange={onChangeHandleOctal}
           />
         </div>
 
         <div className="form-group">
-          <label htmlFor="hexaOutput">Hexadecimal</label>
+          <label htmlFor="hexaOutput">{t('conversor.hexadecimal')}</label>
           <input type="text"
                  className="form-control"
                  id="hexaOutput"
-                 placeholder="Hexadecimal"
+                  placeholder={t('conversor.hexadecimalPlaceholder')}
                  value={numbers.hexa}
                  onChange={onChangeHandleHexa}
           />
@@ -116,9 +118,9 @@ export const ConversorScreen = () => {
 
         <div>
           <Link to="/demo">
-            <button className="btn btn-secondary mx-2">⬅ Back</button>
+            <button className="btn btn-secondary mx-2">{t('conversor.back')}</button>
           </Link>
-          <button type="button" className="btn btn-primary" onClick={onClearHandle}>🗑️ Clear</button>
+          <button type="button" className="btn btn-primary" onClick={onClearHandle}>{t('conversor.clear')}</button>
         </div>
         <hr/>
       </div>

@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import moment from 'moment';
 import noImage from '../../static/blogger.png';
 import noInternetConnection from '../../static/no-internet.png';
 
 export const BlogCard = ({post}) => {
+    const { t } = useTranslation();
     // TODO: add loader while checking 
     // if there is intenet connection 
     // and there is an image available in post.images object
@@ -63,7 +65,7 @@ export const BlogCard = ({post}) => {
                     href={post.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-outline-secondary btn-block">Read</a>
+                    className="btn btn-outline-secondary btn-block">{t('blog.read')}</a>
                 </div>
             </div>
         </div>

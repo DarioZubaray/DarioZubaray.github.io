@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { experiences } from '../../data/experiences';
 
 import noImage from '../../static/no-image.png';
@@ -34,9 +35,10 @@ const getImageResource = (imageName) => {
 }
 
 export const ExperienceCard = () => {
+    const { t } = useTranslation();
     return (
         <div className="card-body">
-            <h1>Experience</h1>
+            <h1>{t('home.experience')}</h1>
 
             <ul className="list-group">
                 {
@@ -47,7 +49,7 @@ export const ExperienceCard = () => {
                                 <div className="col-md-2">
                                     <div className="card" style={{alignItems: 'center'}}>
                                             <img
-                                                src={getImageResource(exp.company)}
+                                                src={getImageResource(t(exp.companyKey))}
                                                 alt="blogger post"
                                                 className="rounded"
                                                 width="60" height="60"/>
@@ -66,23 +68,27 @@ export const ExperienceCard = () => {
                             <hr />
 
                             <div>
-                                <h6 style={{ fontWeight: 'bold', fontStyle: 'italic', textDecoration: 'underline', marginTop: '10px' }}>Description:</h6>
+                                <h6 style={{ fontWeight: 'bold', fontStyle: 'italic', textDecoration: 'underline', marginTop: '10px' }}>{t('home.description')}</h6>
                                 <br/>
                                 <div>
                                 {/* Resumen */}
-                                <p style={{ textIndent: 10 }}>{exp.summary}</p>
+                                <p style={{ textIndent: 10 }}>
+                                    {exp.summaryKeys.map((key, idx) => (
+                                        <span key={'summary-' + idx}>{t(key)}</span>
+                                    ))}
+                                </p>
                                 
                                 {/* Sección Responsabilidades */}
-                                <h6 style={{ fontWeight: 'bold', fontStyle: 'italic', textDecoration: 'underline', marginTop: '10px' }}>Responsibilities:</h6>
+                                <h6 style={{ fontWeight: 'bold', fontStyle: 'italic', textDecoration: 'underline', marginTop: '10px' }}>{t('home.responsibilities')}</h6>
                                 <ul style={{ paddingLeft: '20px' }}>
-                                    {exp.responsibilities.map((resp, index) => (
-                                    <li key={'resp-' + index}>{resp}</li>
+                                    {exp.responsibilityKeys.map((key, index) => (
+                                    <li key={'resp-' + index}>{t(key)}</li>
                                     ))}
                                 </ul>
 
                                 {/* Sección Tech Stack */}
                                 <p style={{ marginTop: '10px' }}>
-                                    <strong style={{ fontStyle: 'italic', textDecoration: 'underline' }}>Tech Stack:</strong> {exp.techStack}
+                                    <strong style={{ fontStyle: 'italic', textDecoration: 'underline' }}>{t('home.techStack')}</strong> {t(exp.techStackKey)}
                                 </p>
                                 </div>
                             </div>

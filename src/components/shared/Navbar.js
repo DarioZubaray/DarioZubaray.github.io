@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { ThemeToggle } from "../ui/ThemeToggle";
+import { LanguageSelector } from "../ui/LanguageSelector";
 
 export const Navbar = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+  const { t } = useTranslation();
 
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
@@ -41,7 +44,7 @@ export const Navbar = () => {
                 exact
                 to="/"
               >
-                Home
+                {t('nav.home')}
               </NavLink>
             </li>
             <li className="nav-item active" onClick={handleNavCollapse}>
@@ -51,7 +54,7 @@ export const Navbar = () => {
                 exact
                 to="/studies"
               >
-                Studies
+                {t('nav.studies')}
               </NavLink>
             </li>
             <li className="nav-item active" onClick={handleNavCollapse}>
@@ -61,7 +64,7 @@ export const Navbar = () => {
                 exact
                 to="/blog"
               >
-                Blog
+                {t('nav.blog')}
               </NavLink>
             </li>
             <li className="nav-item active" onClick={handleNavCollapse}>
@@ -71,7 +74,7 @@ export const Navbar = () => {
                 exact
                 to="/links"
               >
-                Links
+                {t('nav.links')}
               </NavLink>
             </li>
             <li className="nav-item active" onClick={handleNavCollapse}>
@@ -81,7 +84,7 @@ export const Navbar = () => {
                 exact
                 to="/demo"
               >
-                Demo
+                {t('nav.demo')}
               </NavLink>
             </li>
             <li className="nav-item active" onClick={handleNavCollapse}>
@@ -91,16 +94,22 @@ export const Navbar = () => {
                 exact
                 to="/github"
               >
-                Github
+                {t('nav.github')}
               </NavLink>
             </li>
           </ul>
-          <div className="ml-2 d-none d-lg-block">
-            <ThemeToggle />
+          <div className="ml-2 d-none d-lg-flex align-items-center">
+            <LanguageSelector />
+            <div className="ml-2">
+              <ThemeToggle />
+            </div>
           </div>
         </div>
-        <div className="d-lg-none mt-2">
-          <ThemeToggle />
+        <div className="d-lg-none mt-2 d-flex align-items-center">
+          <LanguageSelector />
+          <div className="ml-2">
+            <ThemeToggle />
+          </div>
         </div>
       </div>
     </nav>

@@ -1,12 +1,12 @@
-export const biography = [
-  "I'm AGE years old ♑ 🐉",
-  "a father 👨‍👧, a bit of a gamer 🎮",
-  "a piano enthusiast 🎹",
-  "constantly training 🏋️‍♂️",
-  "a curious reader 📖",
-  "from Argentina 🔵⚪🔵",
-  "a big Formula 1 fan 🏎",
-  "and a mate lover 🧉",
+export const biographyKeys = [
+  'biography.age',
+  'biography.father',
+  'biography.piano',
+  'biography.training',
+  'biography.reader',
+  'biography.fromArgentina',
+  'biography.f1',
+  'biography.mate',
 ];
 
 export const linkedinUrl = 'https://www.linkedin.com/in/dario-jose-zubaray';

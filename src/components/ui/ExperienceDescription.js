@@ -1,15 +1,17 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 export const ExperienceDescriptionHeader = ({ exp }) => {
+    const { t } = useTranslation();
     return (
         <div className="col">
             <h4>
                 <span role="img" aria-label="company">🏢</span> 
-                <span> { exp.company } </span>
+                <span> { t(exp.companyKey) } </span>
             </h4>
             <h4>
                 <span role="img" aria-label="title">👷‍♂️</span> 
-                <span> { exp.title } </span>
+                <span> { t(exp.titleKey) } </span>
             </h4>
         </div>
     )
@@ -17,6 +19,7 @@ export const ExperienceDescriptionHeader = ({ exp }) => {
 
 
 export const ExperienceDescriptionBody = ({ exp }) => {
+  const { t } = useTranslation();
 
   const calculateMonthsEmployeed = ({ fromYear, fromMonth, limitDate }) => {
     const expFrom = new Date(fromYear, fromMonth - 1);
@@ -54,27 +57,27 @@ export const ExperienceDescriptionBody = ({ exp }) => {
             <small>
                 <span role="img"  aria-label="period">⌛</span> 
             </small>
-            <small> { exp.from.monthName }</small> { exp.from.year } - 
-            <small> { exp.to?.monthName === undefined ? '' : exp.to.monthName }</small> { exp.to?.year === undefined ? 'Actually' : exp.to.year }
+            <small> { t(exp.from.monthNameKey) }</small> { exp.from.year } - 
+            <small> { exp.to?.monthNameKey === undefined ? '' : t(exp.to.monthNameKey) }</small> { exp.to?.year === undefined ? t('experience.actually') : exp.to.year }
             <span className='white not-selectable'> ({monthsEmployeed}m - {calculatePorcentage()}%)</span>
         </h5>
         <h6>
             <small>
                 <span role="img" aria-label="language">🗨</span> 
             </small>
-            <span> { exp.language } </span>
+            <span> { t(exp.languageKey) } </span>
         </h6>
         <h6>
             <small>
                 <span role="img" aria-label="location">🌐</span> 
             </small>
-            <span> { exp.location } </span>
+            <span> { t(exp.locationKey) } </span>
         </h6>
         <h6>
             <small>
                 <span role="img" aria-label="contract-type">🎲</span> 
             </small>
-            <span> { exp.contract } </span>
+            <span> { t(exp.contractKey) } </span>
         </h6>
     </div>
   )

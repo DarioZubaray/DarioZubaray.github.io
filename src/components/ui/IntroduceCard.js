@@ -1,9 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import moment from 'moment';
 import ReactRotatingText from 'react-rotating-text';
 import '../ui/introduceCard.css';
 
-import { biography, linkedinUrl } from '../../data/biography';
+import { biographyKeys, linkedinUrl } from '../../data/biography';
 import nomalProfile from '../../static/circle-cropped.png';
 import pixelartProfile from '../../static/cropped_circle_pixelart.png';
 import cartoonProfile from '../../static/cropped_circle_cartoon.png';
@@ -27,6 +28,7 @@ function getRandomProfile(profiles) {
 }
 
 export const IntroduceCard = () => {
+    const { t } = useTranslation();
     const profileImage = getRandomProfile(profiles);
 
     return (
@@ -48,24 +50,27 @@ export const IntroduceCard = () => {
 
                             <h3 className="pb-4">
                                 <ReactRotatingText 
-                                    items={['Software Engineer', 'Developer', 'Programmer', 'Coder']}
+                                    items={[t('home.roles.softwareEngineer'), t('home.roles.developer'), t('home.roles.programmer'), t('home.roles.coder')]}
                                 />
                             </h3>
 
-                            { biography.map( (b, i) => (
-                                <div className="text-justify" key={i}>
-                                    {
-                                        (b.includes('AGE')) 
-                                        ? b.replace('AGE', moment().diff('1989-01-16', 'years'))
-                                        : b
-                                    }
-                                </div>
-                            )) }
+                            { biographyKeys.map( (key, i) => {
+                                const text = t(key);
+                                return (
+                                    <div className="text-justify" key={i}>
+                                        {
+                                            (text.includes('AGE')) 
+                                            ? text.replace('AGE', moment().diff('1989-01-16', 'years'))
+                                            : text
+                                        }
+                                    </div>
+                                );
+                            }) }
                             <a 
                                 href={linkedinUrl}
                                 className="btn btn-primary my-2"
                                 target="_balnk"
-                                rel="noopener noreferrer">Add me on LinkedIn</a>
+                                rel="noopener noreferrer">{t('home.linkedin')}</a>
 
                         </div>
                     </div>

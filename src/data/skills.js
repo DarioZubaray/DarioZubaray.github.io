@@ -1,50 +1,50 @@
 export const skills = [
     {
-      skill: "Javascript",
+      skillKey: "skills.javascript",
       percentage: 100,
     },
     {
-      skill: "Typescript",
+      skillKey: "skills.typescript",
       percentage: 100,
     },
     {
-      skill: "NodeJs",
+      skillKey: "skills.nodejs",
       percentage: 100,
     },
     {
-      skill: "ExpressJs",
+      skillKey: "skills.expressjs",
       percentage: 100,
     },
     {
-      skill: "NestJs",
+      skillKey: "skills.nestjs",
       percentage: 99,
     },
     {
-      skill: "React Js",
+      skillKey: "skills.reactJs",
       percentage: 95,
     },
     {
-      skill: "React Hooks",
+      skillKey: "skills.reactHooks",
       percentage: 90,
     },
     {
-      skill: "React Native",
+      skillKey: "skills.reactNative",
       percentage: 80,
     },
     {
-      skill: "GDScript",
+      skillKey: "skills.gdscript",
       percentage: 85,
     },
     {
-      skill: "N8N",
+      skillKey: "skills.n8n",
       percentage: 80,
     },
     {
-      skill: "LangChain",
+      skillKey: "skills.langchain",
       percentage: 85,
     },
     {
-      skill: "Copy Pasting",
+      skillKey: "skills.copyPasting",
       percentage: 100,
     },
 ];

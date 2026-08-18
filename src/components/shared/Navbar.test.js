@@ -1,25 +1,16 @@
 import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
-import { MemoryRouter } from 'react-router-dom';
-import { ThemeProvider } from '../../context/ThemeContext';
+import { screen, fireEvent } from '@testing-library/react';
 import { Navbar } from './Navbar';
-
-const renderWithRouter = (component) => {
-  return render(
-    <ThemeProvider>
-      <MemoryRouter>{component}</MemoryRouter>
-    </ThemeProvider>
-  );
-};
+import { renderWithProviders } from '../../test-utils';
 
 describe('Navbar', () => {
   it('should render brand name', () => {
-    renderWithRouter(<Navbar />);
+    renderWithProviders(<Navbar />);
     expect(screen.getByText('Dario Zubaray')).toBeInTheDocument();
   });
 
   it('should render all nav links', () => {
-    renderWithRouter(<Navbar />);
+    renderWithProviders(<Navbar />);
     expect(screen.getByText('Home')).toBeInTheDocument();
     expect(screen.getByText('Studies')).toBeInTheDocument();
     expect(screen.getByText('Blog')).toBeInTheDocument();
@@ -29,7 +20,7 @@ describe('Navbar', () => {
   });
 
   it('should toggle navbar on toggler click', () => {
-    renderWithRouter(<Navbar />);
+    renderWithProviders(<Navbar />);
     const toggler = screen.getByLabelText('Toggle navigation');
     const collapseDiv = toggler.closest('nav').querySelector('.navbar-collapse');
 

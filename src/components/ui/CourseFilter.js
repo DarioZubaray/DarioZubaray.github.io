@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useTranslation } from 'react-i18next';
 import { CourseFilterButton } from "./CourseFilterButton";
 import { CourseSortingButton } from "./CourseSortingButton";
 
@@ -17,6 +18,7 @@ const tagsFilters = [
 const activeSortingButtonInitialValue = 'Older first';
 
 export const CourseFilter = ({ filterCourse, sortedCourses }) => {
+    const { t } = useTranslation();
 
     const [active, setActive] = useState('all');
     const [activeSortingButton, setActiveSortingButton] = useState(activeSortingButtonInitialValue);
@@ -49,29 +51,29 @@ export const CourseFilter = ({ filterCourse, sortedCourses }) => {
 
   return (
     <>
-        <label>Filter:</label>
+        <label>{t('studies.filter')}</label>
         {
-            tagsFilters.map(t => (
+            tagsFilters.map(filterTag => (
                 <CourseFilterButton
                     active={active}
                     activeAndFilter={activeAndFilter}
-                    name={getName(t)}
-                    filterName={t}
-                    key={t}
+                    name={getName(filterTag)}
+                    filterName={filterTag}
+                    key={filterTag}
                 />
             ))
         }
         <div className="display-block">
-            <label>Sorted by:</label>
+            <label>{t('studies.sortedBy')}</label>
             <CourseSortingButton
                 activeSortingButton={activeSortingButton}
                 activeAndSorting={activeAndSorting}
-                filterName='Older first'
+                filterName={t('studies.olderFirst')}
             />
             <CourseSortingButton
                 activeSortingButton={activeSortingButton}
                 activeAndSorting={activeAndSorting}
-                filterName='Newest first'
+                filterName={t('studies.newestFirst')}
             />
         </div>
         <hr/>

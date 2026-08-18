@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 import { getAllCourses } from "../../services/coursesApi";
 import { CourseFilter } from "../ui/CourseFilter";
@@ -10,6 +11,7 @@ const initialState = {
 }
 
 export const StudiesScreen = () => {
+  const { t } = useTranslation();
   const [isLoading, setIsLoading] = useState(true);
   const [coursesCompleted, setCoursesCompleted] = useState(initialState);
 
@@ -66,14 +68,14 @@ export const StudiesScreen = () => {
 
   if(isLoading) {
     return <div>
-      Cargando...
+      {t('studies.loading')}
     </div>
   }
 
   return (
     <div className="card container animate__animated animate__fadeIn">
       <div className="page-header">
-        <h1 id="timeline" className="text-center my-4">Courses { (coursesCompleted.shown?.courses?.length > 0) ? `(${coursesCompleted.shown.courses.length})` : ''}</h1>
+        <h1 id="timeline" className="text-center my-4">{t('studies.courses')} { (coursesCompleted.shown?.courses?.length > 0) ? `(${coursesCompleted.shown.courses.length})` : ''}</h1>
         <CourseFilter filterCourse={ filterCourse } sortedCourses={ sortedCourses } />
       </div>
       <ul className="timeline">

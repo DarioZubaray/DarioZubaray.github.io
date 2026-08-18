@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import moment from 'moment';
 import './courseTimeline.css';
 
@@ -13,6 +14,7 @@ import uai from '../../static/uai.png';
 import bigSchool from '../../static/big-school.png';
 
 export const CourseTimeline = ({ course }) => {
+    const { t } = useTranslation();
 
     const getImageResource = (imageName) => {
         switch(imageName) {
@@ -67,12 +69,12 @@ export const CourseTimeline = ({ course }) => {
                         )
                     }
                     <p>
-                        duration: {course.duration} hs
+                        {t('studies.duration', { n: course.duration })}
                     </p>
 
                     {
                         course.certification && (
-                            <a href={course.certification} target="_balnk" rel="noopener noreferrer" >check it out!</a>
+                            <a href={course.certification} target="_balnk" rel="noopener noreferrer" >{t('studies.checkItOut')}</a>
                         )
                     }
                 </div>

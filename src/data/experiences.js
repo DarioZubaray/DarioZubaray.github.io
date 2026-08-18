@@ -1,101 +1,101 @@
 export const experiences = [
   {
-    company: "Botmaker",
-    title: "Software Engineer",
-    summary: [
-      "Developed and maintained high-throughput backend services using JavaScript, TypeScript, and NestJS for a conversational AI platform processing millions of daily chatbot requests. Collaboration within agile multidisciplinary teams."
+    companyKey: "experience.companies.botmaker",
+    titleKey: "experience.titles.softwareEngineer",
+    summaryKeys: [
+      "experience.botmaker.summary.0"
     ],
-    responsibilities: [
-      "Development of REST APIs and backend services.",
-      "Implementation of new product features.",
-      "Bug fixing and maintenance of existing solutions.",
-      "Collaboration with frontend and product teams."
+    responsibilityKeys: [
+      "experience.botmaker.resp.0",
+      "experience.botmaker.resp.1",
+      "experience.botmaker.resp.2",
+      "experience.botmaker.resp.3"
     ],
-    techStack: "Javascript, Typescript, Node.js, Nestjs, REST APIs, Git, GCP",
-    from: { month: 7, monthName: 'July', year: 2024 },
-    to: { month: 7, monthName: 'July', year: 2026 },
-    language: 'Spanish',
-    contract: 'Full-Time Employee',
-    location: 'Remote'
+    techStackKey: "experience.botmaker.techStack",
+    from: { month: 7, monthNameKey: 'experience.months.july', year: 2024 },
+    to: { month: 7, monthNameKey: 'experience.months.july', year: 2026 },
+    languageKey: 'experience.languages.spanish',
+    contractKey: 'experience.contracts.fullTime',
+    locationKey: 'experience.locations.remote'
   },
   {
-    company: "Accenture",
-    title: "Software Engineer",
-    summary: [
-      "Engineered cloud-native backend services on AWS (API Gateway, Lambda, Step Functions) to power a mobile dashboard application for the world's leading automotive manufacturer."
+    companyKey: "experience.companies.accenture",
+    titleKey: "experience.titles.softwareEngineer",
+    summaryKeys: [
+      "experience.accenture.summary.0"
     ],
-    responsibilities: [
-      "Designed and implemented REST APIs using Nodejs.",
-      "Created and maintained API Gateway endpoints.",
-      "Integrated services with DynamoDB, S3 and AWS Lambda.",
-      "Developed workflows using Step Functions.",
-      "Participated in CI/CD pipelines and deployment processes."
+    responsibilityKeys: [
+      "experience.accenture.resp.0",
+      "experience.accenture.resp.1",
+      "experience.accenture.resp.2",
+      "experience.accenture.resp.3",
+      "experience.accenture.resp.4"
     ],
-    techStack: "Javascript, Typescript, Nodejs, AWS Lambda, API Gateway, DynamoDB, S3, Step Functions.",
-    from: { month: 4, monthName: 'April', year: 2023 },
-    to: { month: 7, monthName: 'July', year: 2024 },
-    language: 'Spanish, English',
-    contract: 'Full-Time Employee',
-    location: 'Remote'
+    techStackKey: "experience.accenture.techStack",
+    from: { month: 4, monthNameKey: 'experience.months.april', year: 2023 },
+    to: { month: 7, monthNameKey: 'experience.months.july', year: 2024 },
+    languageKey: 'experience.languages.both',
+    contractKey: 'experience.contracts.fullTime',
+    locationKey: 'experience.locations.remote'
   },
   {
-    company: "Number 8",
-    title: "Software Engineer",
-    summary: [
-      "Architected Node.js/NestJS microservices and React applications, spearheading the implementation of rigorous unit testing strategies with Jest to enhance codebase stability and predictability."
+    companyKey: "experience.companies.number8",
+    titleKey: "experience.titles.softwareEngineer",
+    summaryKeys: [
+      "experience.number8.summary.0"
     ],
-    responsibilities: [
-      "Developed backend microservices using Nodejs and Nestjs.",
-      "Implemented unit tests and maintained code quality standards.",
-      "Developed frontend features using React and TypeScript.",
-      "Containerized applications using Docker."
+    responsibilityKeys: [
+      "experience.number8.resp.0",
+      "experience.number8.resp.1",
+      "experience.number8.resp.2",
+      "experience.number8.resp.3"
     ],
-    techStack: "Javascript, Typescript, Nodejs, Expressjs, Nestjs, React, Redux, Docker",
-    from: { month: 3, monthName: 'March', year: 2022 },
-    to: { month: 4, monthName: 'April', year: 2023 },
-    language: 'English',
-    contract: 'Contractor',
-    location: 'Remote'
+    techStackKey: "experience.number8.techStack",
+    from: { month: 3, monthNameKey: 'experience.months.march', year: 2022 },
+    to: { month: 4, monthNameKey: 'experience.months.april', year: 2023 },
+    languageKey: 'experience.languages.english',
+    contractKey: 'experience.contracts.contractor',
+    locationKey: 'experience.locations.remote'
   },
   {
-    company: "Globant",
-    title: "Software Engineer",
-    summary: [
-      "Developed cloud-native microservices and serverless solutions on AWS, contributing to an enterprise-grade FinTech application for a major banking and financial institution in the Caribbean."
+    companyKey: "experience.companies.globant",
+    titleKey: "experience.titles.softwareEngineer",
+    summaryKeys: [
+      "experience.globant.summary.0"
     ],
-    responsibilities: [
-      "Designed and developed Nodesj microservices using Nestjs.",
-      "Integrated applications with AWS services including DynamoDB, Cognito and CloudWatch.",
-      "Deployed containerized workloads using Docker and Kubernetes",
-      "Developed Node.js serverless functions orchestrated with AWS Step Functions.",
-      "Consumed and consolidated data from multiple third-party APIs."
+    responsibilityKeys: [
+      "experience.globant.resp.0",
+      "experience.globant.resp.1",
+      "experience.globant.resp.2",
+      "experience.globant.resp.3",
+      "experience.globant.resp.4"
     ],
-    techStack: "Javascript, Typescript, Node.js, Nestjs, AWS, DynamoDB, Cognito, CloudWatch, Docker, Kubernetes.",
-    from: { month: 9, monthName: 'September', year: 2021 },
-    to: { month: 3, monthName: 'March', year: 2022 },
-    language: 'Spanish, English',
-    contract: 'Full-Time Employee',
-    location: 'Remote'
+    techStackKey: "experience.globant.techStack",
+    from: { month: 9, monthNameKey: 'experience.months.september', year: 2021 },
+    to: { month: 3, monthNameKey: 'experience.months.march', year: 2022 },
+    languageKey: 'experience.languages.both',
+    contractKey: 'experience.contracts.fullTime',
+    locationKey: 'experience.locations.remote'
   },
   {
-    company: "Imagosur SA",
-    title: "Software Engineer",
-    summary: [
-      "Refactored critical data synchronization processes across 3 ecosystem applications, replacing naive string concatenation with efficient memory management (StringBuffer), which slashed daily processing time from 45 minutes down to just 5 minutes.",
-      "Full software development lifecycle participation in enterprise solutions, including analysis, development, maintenance, deployment and user support."
+    companyKey: "experience.companies.imagosur",
+    titleKey: "experience.titles.softwareEngineer",
+    summaryKeys: [
+      "experience.imagosur.summary.0",
+      "experience.imagosur.summary.1"
     ],
-    responsibilities: [
-      "Developed web, desktop and mobile applications.",
-      "Implemented backend services using Java and Spring technologies.",
-      "Designed and maintained integrations with relational databases.",
-      "Participated in deployment, monitoring and production support activities.",
-      "Worked directly with end users to resolve incidents and improve business processes."
+    responsibilityKeys: [
+      "experience.imagosur.resp.0",
+      "experience.imagosur.resp.1",
+      "experience.imagosur.resp.2",
+      "experience.imagosur.resp.3",
+      "experience.imagosur.resp.4"
     ],
-    techStack: "Java, Spring, Hibernate, JavaFX, JavaScript, Vue.js, .NET, SQL Server, MySQL, Jenkins, Docker.",
-    from: { month: 3, monthName: 'March', year: 2016 },
-    to: { month: 9, monthName: 'September', year: 2020 },
-    language: 'Spanish',
-    contract: 'Full-Time Employee',
-    location: 'On Site'
+    techStackKey: "experience.imagosur.techStack",
+    from: { month: 3, monthNameKey: 'experience.months.march', year: 2016 },
+    to: { month: 9, monthNameKey: 'experience.months.september', year: 2020 },
+    languageKey: 'experience.languages.spanish',
+    contractKey: 'experience.contracts.fullTime',
+    locationKey: 'experience.locations.onSite'
   }
 ]
