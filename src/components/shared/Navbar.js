@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import pdf from '../../static/CV_DarioZubaray_EN-Q2-04.2026.pdf'
+import { ThemeToggle } from "../ui/ThemeToggle";
 
 export const Navbar = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
@@ -8,7 +8,7 @@ export const Navbar = () => {
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg" style={{ backgroundColor: 'var(--bg-navbar)', borderBottom: '1px solid var(--border-color)' }}>
       <div className="container">
         <Link className="navbar-brand" to="/">
           <span role="img" aria-label="programmer">
@@ -95,6 +95,12 @@ export const Navbar = () => {
               </NavLink>
             </li>
           </ul>
+          <div className="ml-2 d-none d-lg-block">
+            <ThemeToggle />
+          </div>
+        </div>
+        <div className="d-lg-none mt-2">
+          <ThemeToggle />
         </div>
       </div>
     </nav>

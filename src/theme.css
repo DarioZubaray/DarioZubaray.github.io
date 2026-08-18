@@ -1,0 +1,145 @@
+/* ===== Light Theme (default) ===== */
+:root,
+html.light {
+  --bg-body-1: #ee7752;
+  --bg-body-2: #e73c7e;
+  --bg-body-3: #23a6d5;
+  --bg-body-4: #23d5ab;
+
+  --bg-card: rgba(255, 255, 255, 0.9);
+  --bg-card-solid: #ffffff;
+  --bg-navbar: rgba(248, 249, 250, 0.95);
+  --bg-footer: #343a40;
+
+  --text-primary: #212529;
+  --text-secondary: #6c757d;
+  --text-card: #212529;
+  --text-muted: #6c757d;
+  --text-on-dark: #ffffff;
+  --text-on-dark-muted: rgba(255, 255, 255, 0.7);
+
+  --border-color: #dee2e6;
+  --border-color-strong: #d4d4d4;
+
+  --shadow-card: 0 1px 6px rgba(0, 0, 0, 0.175);
+
+  --progress-bg: #e9ecef;
+  --progress-border: #565656;
+  --progress-bar-fill: #007bff;
+
+  --timeline-line: #eeeeee;
+  --timeline-badge-bg: #999999;
+  --timeline-panel-border: #d4d4d4;
+  --timeline-arrow-outer: #ccc;
+  --timeline-arrow-inner: #ffffff;
+
+  --btn-close-color: rgba(0, 0, 0, 0.5);
+
+  --code-bg: #f8f9fa;
+}
+
+/* ===== Dark Theme ===== */
+html.dark {
+  --bg-body-1: #1a1a2e;
+  --bg-body-2: #16213e;
+  --bg-body-3: #0f3460;
+  --bg-body-4: #1a1a3e;
+
+  --bg-card: rgba(30, 30, 50, 0.9);
+  --bg-card-solid: #1e1e32;
+  --bg-navbar: rgba(20, 20, 40, 0.95);
+  --bg-footer: #0d0d1a;
+
+  --text-primary: #e0e0e0;
+  --text-secondary: #a0a0b0;
+  --text-card: #e0e0e0;
+  --text-muted: #a0a0b0;
+  --text-on-dark: #ffffff;
+  --text-on-dark-muted: rgba(255, 255, 255, 0.7);
+
+  --border-color: #333350;
+  --border-color-strong: #444466;
+
+  --shadow-card: 0 1px 6px rgba(0, 0, 0, 0.4);
+
+  --progress-bg: #2a2a40;
+  --progress-border: #555570;
+  --progress-bar-fill: #4dabf7;
+
+  --timeline-line: #333350;
+  --timeline-badge-bg: #555570;
+  --timeline-panel-border: #444466;
+  --timeline-arrow-outer: #444466;
+  --timeline-arrow-inner: #1e1e32;
+
+  --btn-close-color: rgba(255, 255, 255, 0.7);
+
+  --code-bg: #2a2a40;
+}
+
+/* ===== Apply theme to body ===== */
+body {
+  transition: background-color 0.3s ease;
+}
+
+/* ===== Bootstrap overrides for dark mode ===== */
+html.dark .card {
+  background-color: var(--bg-card);
+  color: var(--text-card);
+  border-color: var(--border-color);
+}
+
+html.dark .bg-light {
+  background-color: var(--bg-card) !important;
+  color: var(--text-card);
+}
+
+html.dark .list-group-item {
+  background-color: var(--bg-card);
+  color: var(--text-card);
+  border-color: var(--border-color);
+}
+
+html.dark .modal-content {
+  background-color: var(--bg-card-solid);
+  color: var(--text-card);
+}
+
+html.dark .btn-close {
+  filter: invert(1);
+}
+
+html.dark .nav-link {
+  color: var(--text-secondary);
+}
+
+html.dark .nav-link:hover,
+html.dark .nav-link.active {
+  color: var(--text-primary);
+}
+
+html.dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(224,224,224,0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+html.dark hr {
+  border-color: var(--border-color);
+}
+
+html.dark .text-muted {
+  color: var(--text-muted) !important;
+}
+
+html.dark a {
+  color: var(--progress-bar-fill);
+}
+
+html.dark .btn-outline-secondary {
+  color: var(--text-secondary);
+  border-color: var(--border-color);
+}
+
+html.dark .btn-outline-secondary:hover {
+  background-color: var(--bg-card);
+  color: var(--text-primary);
+}

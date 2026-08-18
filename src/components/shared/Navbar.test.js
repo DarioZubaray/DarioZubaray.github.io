@@ -1,10 +1,15 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
+import { ThemeProvider } from '../../context/ThemeContext';
 import { Navbar } from './Navbar';
 
 const renderWithRouter = (component) => {
-  return render(<MemoryRouter>{component}</MemoryRouter>);
+  return render(
+    <ThemeProvider>
+      <MemoryRouter>{component}</MemoryRouter>
+    </ThemeProvider>
+  );
 };
 
 describe('Navbar', () => {
