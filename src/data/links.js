@@ -10,6 +10,16 @@ export const publicProfile = [
         nombre: 'LinkedIn'
     },
     {
+        url: 'https://fernando-herrera.com/top-50/',
+        emoji: '🏆🤓',
+        nombre: 'Fernando Herrera - Top 50'
+    },
+    {
+        url: 'https://fernando-herrera.com/student/613',
+        emoji: '🧑‍🎓',
+        nombre: 'Fernando Herrera - My Student Profile'
+    },
+    {
         url: 'https://dar10comyr.blogspot.com/',
         emoji: '📓',
         nombre: 'Personal Blog'
