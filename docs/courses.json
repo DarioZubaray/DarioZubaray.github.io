@@ -847,7 +847,7 @@
             "name": "Programación Orientada a Objetos",
             "organization": "uai",
             "start": "aug 2025",
-            "end": "dec 2025",
+            "end": "aug 2026",
             "duration": 96,
             "certification": "",
             "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
@@ -919,7 +919,7 @@
             "name": "Tecnología de las Comunicaciones",
             "organization": "uai",
             "start": "apr 2026",
-            "end": "at present",
+            "end": "aug 2026",
             "duration": 96,
             "certification": "",
             "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
@@ -928,7 +928,7 @@
             "name": "Lenguajes de Última Generación",
             "organization": "uai",
             "start": "apr 2026",
-            "end": "at present",
+            "end": "aug 2026",
             "duration": 96,
             "certification": "",
             "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
@@ -937,7 +937,7 @@
             "name": "Metodología de Desarrollo de Sistemas II",
             "organization": "uai",
             "start": "apr 2026",
-            "end": "at present",
+            "end": "aug 2026",
             "duration": 96,
             "certification": "",
             "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
@@ -946,8 +946,62 @@
             "name": "Base de Datos",
             "organization": "uai",
             "start": "apr 2026",
+            "end": "aug 2026",
+            "duration": 64,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 91,
+            "name": "Desarrollo con IA: Programa con Agentes",
+            "organization": "big-school",
+            "start": "jul 2026",
+            "end": "jul 2026",
+            "duration": 6,
+            "certification": "https://certificados.thebigschool.com/wp-content/uploads/certs/MDEV3/Certificado-Dario-Jose-Zubaray-m3iq8crs.pdf",
+            "tags": [ "tags.programming.others", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 92,
+            "name": "OpenCode: Guía completa para desarrolladores de software",
+            "organization": "devtalles",
+            "start": "jul 2026",
+            "end": "at present",
+            "duration": 13.5,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 93,
+            "name": "Programación II",
+            "organization": "uai",
+            "start": "aug 2026",
+            "end": "at present",
+            "duration": 80,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 94,
+            "name": "Teleinfómatica y Comunicaciones",
+            "organization": "uai",
+            "start": "aug 2026",
+            "end": "at present",
+            "duration": 96,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 95,
+            "name": "Probabilidad y Estadística",
+            "organization": "uai",
+            "start": "aug 2026",
             "end": "at present",
             "duration": 64,
+            "certification": "",
+            "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
+        },{
+            "id": 96,
+            "name": "Trabajo Final",
+            "organization": "uai",
+            "start": "aug 2026",
+            "end": "at present",
+            "duration": 96,
             "certification": "",
             "tags": [ "tags.programming.others", "tags.programming.university", "tags.language.spanish", "tags.all" ]
         }
