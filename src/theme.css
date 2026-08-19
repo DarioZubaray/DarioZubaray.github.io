@@ -143,3 +143,7 @@ html.dark .btn-outline-secondary:hover {
   background-color: var(--bg-card);
   color: var(--text-primary);
 }
+
+html.dark .white {
+  color: var(--bg-card);
+}
