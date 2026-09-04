@@ -9,12 +9,18 @@ import nomalProfile from '../../static/circle-cropped.png';
 import pixelartProfile from '../../static/cropped_circle_pixelart.png';
 import cartoonProfile from '../../static/cropped_circle_cartoon.png';
 import mspaintProfile from '../../static/cropped_circle_ms-paint.png';
+import pixarProfile from '../../static/cropped_circle_pixar.png';
+import pixelart16bProfile from '../../static/cropped_circle_pixelart_16b.png';
+import simpsonsProfile from '../../static/cropped_circle_simpsons.png';
 
 const profiles = [
-  { type: nomalProfile, weight: 60 },
-  { type: pixelartProfile, weight: 25 },
-  { type: cartoonProfile, weight: 10 },
-  { type: mspaintProfile, weight: 5 }
+  { type: nomalProfile, weight: 70 },
+  { type: pixelartProfile, weight: 5 },
+  { type: cartoonProfile, weight: 5 },
+  { type: mspaintProfile, weight: 5 },
+  { type: pixarProfile, weight: 5 },
+  { type: pixelart16bProfile, weight: 5 },
+  { type: simpsonsProfile, weight: 5 }
 ];
 
 function getRandomProfile(profiles) {
