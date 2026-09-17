@@ -30,7 +30,7 @@
     "loading": "Cargando...",
     "courses": "Cursos",
     "duration": "duración: {{n}} hs",
-    "checkItOut": "¡miralo!",
+    "checkItOut": "ver",
     "filter": "Filtrar:",
     "sortedBy": "Ordenar por:",
     "olderFirst": "Más antiguo primero",
@@ -136,68 +136,75 @@
       "december": "Diciembre"
     },
     "botmaker": {
-      "summary": [
-        "Desarrollé y mantuve servicios backend de alto throughput usando JavaScript, TypeScript y NestJS para una plataforma de IA conversacional que procesa millones de solicitudes diarias de chatbots. Colaboración en equipos multidisciplinarios ágiles."
-      ],
-      "resp": [
-        "Desarrollo de APIs REST y servicios backend.",
-        "Implementación de nuevas funcionalidades del producto.",
-        "Corrección de bugs y mantenimiento de soluciones existentes.",
-        "Colaboración con los equipos de frontend y producto."
-      ],
-      "techStack": "Javascript, Typescript, Node.js, Nestjs, REST APIs, Git, GCP"
+        "summary": [
+        "Desarrollé servicios backend de alto throughput para una plataforma de IA conversacional que procesa millones de solicitudes diarias. Construí APIs con Python y FastAPI, procesamiento asíncrono, validación con Pydantic, testing automatizado e integraciones con AWS."
+        ],
+        "resp": [
+        "Desarrollo de APIs REST y servicios backend con Python y FastAPI.",
+        "Implementación de procesamiento asíncrono utilizando asyncio.",
+        "Validación de datos mediante Pydantic.",
+        "Desarrollo y mantenimiento de tests automatizados con Pytest.",
+        "Integración de servicios backend con AWS.",
+        "Colaboración con equipos multidisciplinarios ágiles."
+        ],
+        "techStack": "Python, FastAPI, Pydantic, asyncio, Pytest, AWS, Docker, AI/LLMs"
     },
     "accenture": {
-      "summary": [
-        "Diseñé servicios backend cloud-native en AWS (API Gateway, Lambda, Step Functions) para potenciar una aplicación móvil de dashboard del principal fabricante automotor del mundo."
-      ],
-      "resp": [
-        "Diseñé e implementé APIs REST usando Nodejs.",
-        "Creé y mantuve endpoints de API Gateway.",
-        "Integré servicios con DynamoDB, S3 y AWS Lambda.",
-        "Desarrollé workflows usando Step Functions.",
-        "Participé en pipelines de CI/CD y procesos de despliegue."
-      ],
-      "techStack": "Javascript, Typescript, Nodejs, AWS Lambda, API Gateway, DynamoDB, S3, Step Functions."
+        "summary": [
+        "Desarrollé servicios backend cloud-native y serverless para una aplicación móvil de dashboard de un fabricante automotor líder. Implementé funciones AWS Lambda y APIs REST integradas con API Gateway, DynamoDB, S3 y Step Functions."
+        ],
+        "resp": [
+        "Desarrollo de APIs REST y servicios backend utilizando Python.",
+        "Implementación de funciones serverless con AWS Lambda.",
+        "Integración de servicios con API Gateway, DynamoDB y S3.",
+        "Desarrollo de workflows utilizando AWS Step Functions.",
+        "Desarrollo de tests automatizados con Pytest.",
+        "Integración con servicios de AWS mediante boto3."
+        ],
+        "techStack": "Python, AWS Lambda, API Gateway, DynamoDB, S3, Step Functions, boto3, Pytest"
     },
     "number8": {
-      "summary": [
-        "Diseñé microservicios Node.js/NestJS y aplicaciones React, liderando la implementación de estrategias rigurosas de testing unitario con Jest para mejorar la estabilidad y predecibilidad del codebase."
-      ],
-      "resp": [
-        "Desarrollé microservicios backend usando Nodejs y Nestjs.",
-        "Implementé tests unitarios y mantuve estándares de calidad de código.",
-        "Desarrollé funcionalidades frontend usando React y TypeScript.",
-        "Contenedoricé aplicaciones usando Docker."
-      ],
-      "techStack": "Javascript, Typescript, Nodejs, Expressjs, Nestjs, React, Redux, Docker"
+        "summary": [
+        "Desarrollé microservicios backend y APIs REST utilizando Python y FastAPI, aplicando arquitectura modular, inyección de dependencias, SQLAlchemy, Pydantic y procesamiento asíncrono."
+        ],
+        "resp": [
+        "Desarrollo de microservicios y APIs REST con Python y FastAPI.",
+        "Aplicación de arquitectura modular e inyección de dependencias.",
+        "Implementación de acceso a datos utilizando SQLAlchemy y PostgreSQL.",
+        "Validación y serialización de datos mediante Pydantic.",
+        "Implementación de procesamiento asíncrono utilizando asyncio.",
+        "Desarrollo de tests automatizados con Pytest.",
+        "Containerización de servicios utilizando Docker."
+        ],
+        "techStack": "Python, FastAPI, SQLAlchemy, Pydantic, PostgreSQL, asyncio, Pytest, Docker"
     },
     "globant": {
-      "summary": [
-        "Desarrollé microservicios cloud-native y soluciones serverless en AWS, contribuyendo a una aplicación FinTech de nivel empresarial para una importante institución bancaria y financiera del Caribe."
-      ],
-      "resp": [
-        "Diseñé y desarrollé microservicios usando Nestjs.",
-        "Integré aplicaciones con servicios de AWS incluyendo DynamoDB, Cognito y CloudWatch.",
-        "Desplegué workloads contenedorizados usando Docker y Kubernetes.",
-        "Desarrollé funciones serverless de Node.js orquestadas con AWS Step Functions.",
-        "Consumí y consolidé datos de múltiples APIs de terceros."
-      ],
-      "techStack": "Javascript, Typescript, Node.js, Nestjs, AWS, DynamoDB, Cognito, CloudWatch, Docker, Kubernetes."
+        "summary": [
+        "Desarrollé microservicios escalables y soluciones serverless para una plataforma FinTech empresarial. Diseñé APIs REST, servicios asíncronos e integraciones con AWS utilizando Python."
+        ],
+        "resp": [
+        "Desarrollo de microservicios y APIs REST utilizando Python y FastAPI.",
+        "Implementación de servicios con procesamiento asíncrono.",
+        "Desarrollo de funciones serverless utilizando AWS Lambda.",
+        "Integración con servicios de AWS mediante boto3.",
+        "Integración de APIs con API Gateway y DynamoDB.",
+        "Containerización y despliegue de servicios utilizando Docker y Kubernetes."
+        ],
+        "techStack": "Python, FastAPI, boto3, AWS Lambda, API Gateway, DynamoDB, Docker, Kubernetes"
     },
-    "imagosur": {
-      "summary": [
-        "Refactoricé procesos críticos de sincronización de datos en 3 aplicaciones del ecosistema, reemplazando concatenación ingenua de strings con gestión eficiente de memoria (StringBuffer), reduciendo el tiempo de procesamiento diario de 45 a solo 5 minutos.",
-        "Participación completa del ciclo de vida de desarrollo de software en soluciones empresariales, incluyendo análisis, desarrollo, mantenimiento, despliegue y soporte al usuario."
-      ],
-      "resp": [
-        "Desarrollé aplicaciones web, desktop y móviles.",
-        "Implementé servicios backend usando Java y tecnologías Spring.",
-        "Diseñé y mantuve integraciones con bases de datos relacionales.",
-        "Participé en actividades de despliegue, monitoreo y soporte en producción.",
-        "Trabajé directamente con usuarios finales para resolver incidentes y mejorar procesos de negocio."
-      ],
-      "techStack": "Java, Spring, Hibernate, JavaFX, JavaScript, Vue.js, .NET, SQL Server, MySQL, Jenkins, Docker."
+    "imagoSur": {
+        "summary": [
+        "Refactoricé procesos críticos de sincronización de datos, reduciendo el tiempo de procesamiento diario de 45 a 5 minutos mediante una gestión más eficiente de memoria."
+        ],
+        "resp": [
+        "Refactorización y optimización de procesos de sincronización de datos.",
+        "Optimización del uso de memoria para mejorar el rendimiento.",
+        "Desarrollo y mantenimiento de aplicaciones backend.",
+        "Desarrollo de soluciones utilizando Java, Spring y Python.",
+        "Desarrollo de aplicaciones frontend utilizando JavaScript y React.",
+        "Trabajo con bases de datos SQL Server y MySQL."
+        ],
+        "techStack": "Java, Spring, Python, JavaScript, React, .NET, SQL Server, MySQL"
     }
   },
   "biography": {
@@ -211,6 +218,8 @@
     "mate": "y amante del mate 🧉"
   },
   "skills": {
+    "python": "Python",
+    "FastAPI": "FastAPI",
     "javascript": "Javascript",
     "typescript": "Typescript",
     "nodejs": "NodeJs",

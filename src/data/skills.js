@@ -1,4 +1,13 @@
 export const skills = [
+    
+    {
+      skillKey: "skills.python",
+      percentage: 100,
+    },
+    {
+      skillKey: "skills.FastAPI",
+      percentage: 100,
+    },
     {
       skillKey: "skills.javascript",
       percentage: 100,
@@ -12,20 +21,12 @@ export const skills = [
       percentage: 100,
     },
     {
-      skillKey: "skills.expressjs",
-      percentage: 100,
-    },
-    {
       skillKey: "skills.nestjs",
       percentage: 99,
     },
     {
       skillKey: "skills.reactJs",
       percentage: 95,
-    },
-    {
-      skillKey: "skills.reactHooks",
-      percentage: 90,
     },
     {
       skillKey: "skills.reactNative",

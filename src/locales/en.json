@@ -136,68 +136,75 @@
       "december": "December"
     },
     "botmaker": {
-      "summary": [
-        "Developed and maintained high-throughput backend services using JavaScript, TypeScript, and NestJS for a conversational AI platform processing millions of daily chatbot requests. Collaboration within agile multidisciplinary teams."
-      ],
-      "resp": [
-        "Development of REST APIs and backend services.",
-        "Implementation of new product features.",
-        "Bug fixing and maintenance of existing solutions.",
-        "Collaboration with frontend and product teams."
-      ],
-      "techStack": "Javascript, Typescript, Node.js, Nestjs, REST APIs, Git, GCP"
+        "summary": [
+        "Developed high-throughput backend services for a conversational AI platform processing millions of daily requests. Built Python and FastAPI APIs with asynchronous processing, Pydantic validation, automated testing, and AWS integrations."
+        ],
+        "resp": [
+        "Developed REST APIs and backend services using Python and FastAPI.",
+        "Implemented asynchronous processing using asyncio.",
+        "Implemented data validation with Pydantic.",
+        "Developed and maintained automated tests with Pytest.",
+        "Integrated backend services with AWS.",
+        "Collaborated with multidisciplinary Agile teams."
+        ],
+        "techStack": "Python, FastAPI, Pydantic, asyncio, Pytest, AWS, Docker, AI/LLMs"
     },
     "accenture": {
-      "summary": [
-        "Engineered cloud-native backend services on AWS (API Gateway, Lambda, Step Functions) to power a mobile dashboard application for the world's leading automotive manufacturer."
-      ],
-      "resp": [
-        "Designed and implemented REST APIs using Nodejs.",
-        "Created and maintained API Gateway endpoints.",
-        "Integrated services with DynamoDB, S3 and AWS Lambda.",
-        "Developed workflows using Step Functions.",
-        "Participated in CI/CD pipelines and deployment processes."
-      ],
-      "techStack": "Javascript, Typescript, Nodejs, AWS Lambda, API Gateway, DynamoDB, S3, Step Functions."
+        "summary": [
+        "Developed cloud-native and serverless backend services for a mobile dashboard application for a leading automotive manufacturer. Implemented AWS Lambda functions and REST APIs integrating API Gateway, DynamoDB, S3, and Step Functions."
+        ],
+        "resp": [
+        "Developed REST APIs and backend services using Python.",
+        "Implemented serverless functions with AWS Lambda.",
+        "Integrated services with API Gateway, DynamoDB, and S3.",
+        "Developed workflows using AWS Step Functions.",
+        "Developed automated tests with Pytest.",
+        "Integrated with AWS services using boto3."
+        ],
+        "techStack": "Python, AWS Lambda, API Gateway, DynamoDB, S3, Step Functions, boto3, Pytest"
     },
     "number8": {
-      "summary": [
-        "Architected Node.js/NestJS microservices and React applications, spearheading the implementation of rigorous unit testing strategies with Jest to enhance codebase stability and predictability."
-      ],
-      "resp": [
-        "Developed backend microservices using Nodejs and Nestjs.",
-        "Implemented unit tests and maintained code quality standards.",
-        "Developed frontend features using React and TypeScript.",
-        "Containerized applications using Docker."
-      ],
-      "techStack": "Javascript, Typescript, Nodejs, Expressjs, Nestjs, React, Redux, Docker"
+        "summary": [
+        "Developed backend microservices and REST APIs using Python and FastAPI, applying modular architecture, dependency injection, SQLAlchemy, Pydantic, and asynchronous processing."
+        ],
+        "resp": [
+        "Developed microservices and REST APIs using Python and FastAPI.",
+        "Applied modular architecture and dependency injection.",
+        "Implemented data access using SQLAlchemy and PostgreSQL.",
+        "Implemented data validation and serialization with Pydantic.",
+        "Implemented asynchronous processing using asyncio.",
+        "Developed automated tests with Pytest.",
+        "Containerized services using Docker."
+        ],
+        "techStack": "Python, FastAPI, SQLAlchemy, Pydantic, PostgreSQL, asyncio, Pytest, Docker"
     },
     "globant": {
-      "summary": [
-        "Developed cloud-native microservices and serverless solutions on AWS, contributing to an enterprise-grade FinTech application for a major banking and financial institution in the Caribbean."
-      ],
-      "resp": [
-        "Designed and developed Nodesj microservices using Nestjs.",
-        "Integrated applications with AWS services including DynamoDB, Cognito and CloudWatch.",
-        "Deployed containerized workloads using Docker and Kubernetes.",
-        "Developed Node.js serverless functions orchestrated with AWS Step Functions.",
-        "Consumed and consolidated data from multiple third-party APIs."
-      ],
-      "techStack": "Javascript, Typescript, Node.js, Nestjs, AWS, DynamoDB, Cognito, CloudWatch, Docker, Kubernetes."
+        "summary": [
+        "Developed scalable microservices and serverless solutions for an enterprise FinTech platform. Designed REST APIs, asynchronous services, and AWS integrations using Python."
+        ],
+        "resp": [
+        "Developed microservices and REST APIs using Python and FastAPI.",
+        "Implemented services with asynchronous processing.",
+        "Developed serverless functions using AWS Lambda.",
+        "Integrated with AWS services using boto3.",
+        "Integrated APIs with API Gateway and DynamoDB.",
+        "Containerized and deployed services using Docker and Kubernetes."
+        ],
+        "techStack": "Python, FastAPI, boto3, AWS Lambda, API Gateway, DynamoDB, Docker, Kubernetes"
     },
-    "imagosur": {
-      "summary": [
-        "Refactored critical data synchronization processes across 3 ecosystem applications, replacing naive string concatenation with efficient memory management (StringBuffer), which slashed daily processing time from 45 minutes down to just 5 minutes.",
-        "Full software development lifecycle participation in enterprise solutions, including analysis, development, maintenance, deployment and user support."
-      ],
-      "resp": [
-        "Developed web, desktop and mobile applications.",
-        "Implemented backend services using Java and Spring technologies.",
-        "Designed and maintained integrations with relational databases.",
-        "Participated in deployment, monitoring and production support activities.",
-        "Worked directly with end users to resolve incidents and improve business processes."
-      ],
-      "techStack": "Java, Spring, Hibernate, JavaFX, JavaScript, Vue.js, .NET, SQL Server, MySQL, Jenkins, Docker."
+    "imagoSur": {
+        "summary": [
+        "Refactored critical data synchronization processes, reducing daily processing time from 45 to 5 minutes through more efficient memory management."
+        ],
+        "resp": [
+        "Refactored and optimized data synchronization processes.",
+        "Optimized memory usage to improve performance.",
+        "Developed and maintained backend applications.",
+        "Developed solutions using Java, Spring, and Python.",
+        "Developed frontend applications using JavaScript and React.",
+        "Worked with SQL Server and MySQL databases."
+        ],
+        "techStack": "Java, Spring, Python, JavaScript, React, .NET, SQL Server, MySQL"
     }
   },
   "biography": {
@@ -211,6 +218,8 @@
     "mate": "and a mate lover 🧉"
   },
   "skills": {
+    "python": "Python",
+    "FastAPI": "FastAPI",
     "javascript": "Javascript",
     "typescript": "Typescript",
     "nodejs": "NodeJs",
