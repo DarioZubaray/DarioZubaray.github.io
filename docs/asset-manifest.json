@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.5b352265.css",
-    "main.js": "/static/js/main.300ba175.js",
+    "main.css": "/static/css/main.4ff6392a.css",
+    "main.js": "/static/js/main.e2177c6d.js",
+    "static/media/cropped_circle_pixar.png": "/static/media/cropped_circle_pixar.d673d51ccfabb5093573.png",
+    "static/media/cropped_circle_simpsons.png": "/static/media/cropped_circle_simpsons.1009942109f1245a0917.png",
+    "static/media/cropped_circle_pixelart_16b.png": "/static/media/cropped_circle_pixelart_16b.ddaabe7ccd0ab9239711.png",
     "static/media/cropped_circle_pixelart.png": "/static/media/cropped_circle_pixelart.ccd2e9dcb4f40fbdf775.png",
     "static/media/cropped_circle_ms-paint.png": "/static/media/cropped_circle_ms-paint.4504f955e1be479ff25e.png",
     "static/media/cropped_circle_cartoon.png": "/static/media/cropped_circle_cartoon.25fcaf9261751e4ffba4.png",
@@ -15,11 +18,11 @@
     "static/media/number8.png": "/static/media/number8.4826b21ecafb715d9028.png",
     "static/media/accelone.jpg": "/static/media/accelone.e9ad87d229102fce978e.jpg",
     "index.html": "/index.html",
-    "main.5b352265.css.map": "/static/css/main.5b352265.css.map",
-    "main.300ba175.js.map": "/static/js/main.300ba175.js.map"
+    "main.4ff6392a.css.map": "/static/css/main.4ff6392a.css.map",
+    "main.e2177c6d.js.map": "/static/js/main.e2177c6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b352265.css",
-    "static/js/main.300ba175.js"
+    "static/css/main.4ff6392a.css",
+    "static/js/main.e2177c6d.js"
   ]
 }

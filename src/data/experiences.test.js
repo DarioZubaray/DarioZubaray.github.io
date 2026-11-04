@@ -26,12 +26,6 @@ describe('experiences', () => {
       expect(exp.from.month).toBeLessThanOrEqual(12);
       expect(typeof exp.from.monthNameKey).toBe('string');
       expect(typeof exp.from.year).toBe('number');
-
-      expect(typeof exp.to.month).toBe('number');
-      expect(exp.to.month).toBeGreaterThanOrEqual(1);
-      expect(exp.to.month).toBeLessThanOrEqual(12);
-      expect(typeof exp.to.monthNameKey).toBe('string');
-      expect(typeof exp.to.year).toBe('number');
     });
   });
 

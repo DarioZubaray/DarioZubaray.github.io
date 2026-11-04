@@ -13,7 +13,6 @@ export const experiences = [
     ],
     techStackKey: "experience.botmaker.techStack",
     from: { month: 7, monthNameKey: 'experience.months.july', year: 2024 },
-    to: { month: 7, monthNameKey: 'experience.months.july', year: 2026 },
     languageKey: 'experience.languages.spanish',
     contractKey: 'experience.contracts.fullTime',
     locationKey: 'experience.locations.remote'
