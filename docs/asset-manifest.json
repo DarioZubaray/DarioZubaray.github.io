@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4ff6392a.css",
-    "main.js": "/static/js/main.e2177c6d.js",
+    "main.js": "/static/js/main.95b3a1ac.js",
     "static/media/cropped_circle_pixar.png": "/static/media/cropped_circle_pixar.d673d51ccfabb5093573.png",
     "static/media/cropped_circle_simpsons.png": "/static/media/cropped_circle_simpsons.1009942109f1245a0917.png",
     "static/media/cropped_circle_pixelart_16b.png": "/static/media/cropped_circle_pixelart_16b.ddaabe7ccd0ab9239711.png",
@@ -19,10 +19,10 @@
     "static/media/accelone.jpg": "/static/media/accelone.e9ad87d229102fce978e.jpg",
     "index.html": "/index.html",
     "main.4ff6392a.css.map": "/static/css/main.4ff6392a.css.map",
-    "main.e2177c6d.js.map": "/static/js/main.e2177c6d.js.map"
+    "main.95b3a1ac.js.map": "/static/js/main.95b3a1ac.js.map"
   },
   "entrypoints": [
     "static/css/main.4ff6392a.css",
-    "static/js/main.e2177c6d.js"
+    "static/js/main.95b3a1ac.js"
   ]
 }

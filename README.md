@@ -19,7 +19,8 @@ I am a developer with over 10 years of experience turning complex problems into 
 
 | Backend | Frontend | Infra & Data |
 | :--- | :--- | :--- |
-| **Node.js** (TypeScript, Expressjs, Nestjs) | **React.js** (Hooks, Redux, Context) | **AWS** (Lambda, DynamoDB, S3) |
+| **Python** (FastAPI, Django) | **React.js** (Hooks, Redux, Context) | **AWS** (Lambda, RDS, DynamoDB, EC2, S3, SQS, Cloud Watch) |
+| **Node.js** (TypeScript, Expressjs, Nestjs) | **HTML5**, **CSS3** | **GCP** (Cloud Functions, Cloud SQL, Firebase, Compute Engine, Cloud Storage, Pub/Sub, Cloud Monitoring) |
 | **Architecture:** Microservices, Hexagonal | **Testing:** Mocha, Jest, Jasmine, Puppeteer | **Databases:** PostgreSQL, MongoDB, Redis |
 
 ---
