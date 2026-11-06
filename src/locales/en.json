@@ -192,7 +192,7 @@
         ],
         "techStack": "Python, FastAPI, boto3, AWS Lambda, API Gateway, DynamoDB, Docker, Kubernetes"
     },
-    "imagoSur": {
+    "imagosur": {
         "summary": [
         "Refactored critical data synchronization processes, reducing daily processing time from 45 to 5 minutes through more efficient memory management."
         ],
