@@ -18,7 +18,10 @@ export const DemoScreen = () => {
           <button className="btn btn-secondary mx-2">{t('demo.typeMatchQuiz')}</button>
         </Link>
         <Link to="/conversor#Operations">
-          <button className="btn btn-secondary">{t('demo.operations')}</button>
+          <button className="btn btn-secondary mx-2">{t('demo.operations')}</button>
+        </Link>
+        <Link to="/flappy-wiu">
+            <button className="btn btn-secondary mx-2">Flappy wiu web</button>
         </Link>
         <hr/>
 
